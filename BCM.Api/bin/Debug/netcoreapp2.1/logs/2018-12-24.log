@@ -1,0 +1,426 @@
+2018-12-24 13:56:48.6160 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"2016124037","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:10.693","giveNumber":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:49.213","giveNumber":50,"giveType":null}],"pageSize":3,"pageCount":2,"pageIndex":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：838.516 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:57:55.6870 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"2016124037","timeend":"","timestart":"1545631030","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[],"pageSize":3,"pageCount":0,"pageIndex":1,"totalPages":0,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：32.2891 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:58:00.8198 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"2016124037","timeend":"1545631030","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:10.693","giveNumber":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:49.213","giveNumber":50,"giveType":null}],"pageSize":3,"pageCount":2,"pageIndex":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：19.1348 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:58:19.6032 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"2016124037","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:10.693","giveNumber":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:49.213","giveNumber":50,"giveType":null}],"pageSize":3,"pageCount":2,"pageIndex":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：26.0314 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:58:31.9997 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"2016124037","timeend":"1545631030","timestart":"1545544630","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[],"pageSize":3,"pageCount":0,"pageIndex":1,"totalPages":0,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：20.7506 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:58:48.0238 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"2016124038","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[],"pageSize":3,"pageCount":0,"pageIndex":1,"totalPages":0,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：18.7832 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:58:52.8057 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"2016124037","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:10.693","giveNumber":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:49.213","giveNumber":50,"giveType":null}],"pageSize":3,"pageCount":2,"pageIndex":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：15.8245 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:58:58.7728 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"4037","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:10.693","giveNumber":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:49.213","giveNumber":50,"giveType":null}],"pageSize":3,"pageCount":2,"pageIndex":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：16.1596 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:59:02.7075 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:10.693","giveNumber":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:49.213","giveNumber":50,"giveType":null}],"pageSize":3,"pageCount":2,"pageIndex":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：31.6606 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:59:10.5694 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测试1","companyid":"","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:10.693","giveNumber":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:49.213","giveNumber":50,"giveType":null}],"pageSize":3,"pageCount":2,"pageIndex":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：26.9041 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:59:14.9345 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测试2","companyid":"","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[],"pageSize":3,"pageCount":0,"pageIndex":1,"totalPages":0,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：17.7078 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:59:18.5666 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:10.693","giveNumber":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:49.213","giveNumber":50,"giveType":null}],"pageSize":3,"pageCount":2,"pageIndex":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：41.359 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 13:59:32.7361 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9af44d036648c7","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:10.693","giveNumber":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:49.213","giveNumber":50,"giveType":null}],"pageSize":3,"pageCount":2,"pageIndex":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：23.9071 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:00:00.5468 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9af44d06648c7","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[],"pageSize":3,"pageCount":0,"pageIndex":1,"totalPages":0,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：26.2119 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:00:06.2808 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount/givecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:10.693","giveNumber":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:21:49.213","giveNumber":50,"giveType":null}],"pageSize":3,"pageCount":2,"pageIndex":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：27.337 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:10:36.6719 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：在返回结果前发生了异常
+ 耗时：762.3331 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:10:36.8019 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Object reference not set to an instance of an object. Object reference not set to an instance of an object. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-24 14:10:53.0303 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportgivecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：在返回结果前发生了异常
+ 耗时：39.8111 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:10:53.0303 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Object reference not set to an instance of an object. Object reference not set to an instance of an object. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-24 14:13:23.8779 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：在返回结果前发生了异常
+ 耗时：106003.6622 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:13:23.8822 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Object reference not set to an instance of an object. Object reference not set to an instance of an object. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-24 14:16:21.6065 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：在返回结果前发生了异常
+ 耗时：598.8391 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:16:21.7749 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Object reference not set to an instance of an object. Object reference not set to an instance of an object. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-24 14:16:55.0344 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：在返回结果前发生了异常
+ 耗时：5341.3461 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:16:55.0481 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Object reference not set to an instance of an object. Object reference not set to an instance of an object. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-24 14:20:19.5173 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：902.7132 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:24:26.9673 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportgivecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":1}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：865.1914 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:29:03.6878 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givecount 
+ 方式：POST 
+ 参数：{"giveCountCreation":{"GiveRecordId":null,"AddAt":null,"GiveCountType":"A400002","GiveNumber":50,"Remarks":"123","JobId":"2016124038"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：201.5807 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:29:25.1472 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportgivecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"1545631030","timestart":"1545458230","pageIndex":1,"pageSize":3}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：53.1409 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:29:57.6490 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportgivecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：41.8899 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:32:04.4680 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveCountType":null,"GiveMoney1":50.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：888.0268 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:32:10.3046 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveCountType":null,"GiveMoney1":50.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：25.0267 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:32:14.0232 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveCountType":null,"GiveMoney1":50.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：20.8126 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:46:05.0823 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivecountrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：774.0724 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:47:21.2766 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivemoneyrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"8e66c89e5acd456bbe9","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：920.2215 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:47:26.5657 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivemoneyrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：40.8458 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:48:12.0740 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivemoneyrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"测","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：787.8177 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:48:44.7531 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivemoneyrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：37.1579 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:49:56.9264 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveCountType":null,"GiveMoney1":50.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：204.6175 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:50:04.1476 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveCountType":null,"GiveMoney1":50.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：22.1289 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:50:07.1040 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveCountType":null,"GiveMoney1":50.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：17.2365 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:50:27.7262 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveCountType":"A500002","GiveMoney1":50.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：30.7342 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:50:30.3372 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveCountType":"A500001","GiveMoney1":50.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：19.3679 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:50:34.0446 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveCountType":"A500003","GiveMoney1":50.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：19.5425 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:54:44.8277 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveMoneyType":"A500003","GiveMoney1":500.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：在返回结果前发生了异常
+ 耗时：642.0008 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:54:44.9180 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next An error occurred while updating the entries. See the inner exception for details. An error occurred while updating the entries. See the inner exception for details. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-24 14:55:49.1292 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney 
+ 方式：POST 
+ 参数：{"giveMoneyCreation":{"GiveRecordId":null,"AddAt":null,"GiveMoneyType":"A500003","GiveMoney1":500.0,"Remarks":"测试","JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：651.549 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:56:08.2754 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallgivemoneyrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：589.3264 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 14:58:13.8779 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/givemoney/givemoneyrecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:09:23.063","giveMoney":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:10:02.53","giveMoney":null,"giveType":null},{"name":"测试1","jobId":"2016124037","conpanyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","giveTime":"2018-12-22T18:10:13.76","giveMoney":50.0,"giveType":null}],"pageSize":3,"pageCount":3,"pageIndex":1,"totalPages":7,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：581.7558 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 15:52:49.9252 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/qwe 
+ 方式：POST 
+ 参数：{}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：8972.6463 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 15:53:26.2150 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/consumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"次数","CountOrMoney":null}],"pageSize":3,"pageCount":3,"pageIndex":1,"totalPages":243,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：480.219 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 15:54:33.1009 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/consumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"次数","CountOrMoney":null}],"pageSize":3,"pageCount":3,"pageIndex":1,"totalPages":243,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：38.2811 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 15:54:39.7122 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/consumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"次数","CountOrMoney":null}],"pageSize":3,"pageCount":3,"pageIndex":1,"totalPages":243,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：54.3565 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 15:55:24.9943 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/consumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"次数","CountOrMoney":null}],"pageSize":3,"pageCount":3,"pageIndex":1,"totalPages":243,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：30005.4459 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 15:59:14.8703 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/consumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"次数","CountOrMoney":null}],"pageSize":3,"pageCount":3,"pageIndex":1,"totalPages":243,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：594.2809 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 15:59:45.0349 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/consumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"次数","CountOrMoney":365.0},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"次数","CountOrMoney":null}],"pageSize":3,"pageCount":3,"pageIndex":1,"totalPages":243,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：569.9929 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 16:00:35.2875 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/consumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"次数","CountOrMoney":null}],"pageSize":3,"pageCount":3,"pageIndex":1,"totalPages":243,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：559.4238 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 16:00:46.4418 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/consumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-29T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-29T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-28T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-28T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-27T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-27T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-26T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-26T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-25T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-25T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-24T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-24T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-23T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-23T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-22T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-22T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null}],"pageSize":20,"pageCount":20,"pageIndex":1,"totalPages":37,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：32.7012 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 16:02:09.6262 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/consumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-29T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-29T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-28T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-28T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-27T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-27T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-26T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-26T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-25T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-25T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-24T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-24T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-23T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-23T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-22T15:52:40.863","ConsumeType":"次数","CountOrMoney":null},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-22T15:52:40.863","ConsumeType":"钱包","CountOrMoney":null}],"pageSize":20,"pageCount":20,"pageIndex":1,"totalPages":37,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：498.5921 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 16:04:58.0235 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/qwe 
+ 方式：POST 
+ 参数：{}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：1960.3752 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 16:05:12.4306 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/UseRecord/consumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-31T16:04:55.973","ConsumeType":"次数","CountOrMoney":"365"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-30T16:04:55.973","ConsumeType":"钱包","CountOrMoney":"364"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-29T16:04:55.973","ConsumeType":"次数","CountOrMoney":"363"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-28T16:04:55.973","ConsumeType":"钱包","CountOrMoney":"362"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-27T16:04:55.973","ConsumeType":"次数","CountOrMoney":"361"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-26T16:04:55.973","ConsumeType":"钱包","CountOrMoney":"360"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-25T16:04:55.973","ConsumeType":"次数","CountOrMoney":"359"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-24T16:04:55.973","ConsumeType":"钱包","CountOrMoney":"358"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-23T16:04:55.973","ConsumeType":"次数","CountOrMoney":"357"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-22T16:04:55.973","ConsumeType":"钱包","CountOrMoney":"356"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-21T16:04:55.973","ConsumeType":"次数","CountOrMoney":"355"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-20T16:04:55.973","ConsumeType":"钱包","CountOrMoney":"354"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-19T16:04:55.973","ConsumeType":"次数","CountOrMoney":"353"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-18T16:04:55.973","ConsumeType":"钱包","CountOrMoney":"352"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-17T16:04:55.973","ConsumeType":"次数","CountOrMoney":"351"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-16T16:04:55.973","ConsumeType":"钱包","CountOrMoney":"350"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-15T16:04:55.973","ConsumeType":"次数","CountOrMoney":"349"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-14T16:04:55.973","ConsumeType":"钱包","CountOrMoney":"348"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-13T16:04:55.973","ConsumeType":"次数","CountOrMoney":"347"},{"CompanyName":"四川华能","CompanyId":"a7e15ad2d4e243c598699e500b52e854","DepartmentName":"人事部","DepartmentId":"8e66c89e5acd456bbe9af44d036648c7","JobId":"2016124037","EmployeeName":"测试1","AddAt":"2018-12-12T16:04:55.973","ConsumeType":"钱包","CountOrMoney":"346"}],"pageSize":20,"pageCount":20,"pageIndex":1,"totalPages":19,"prePage":false,"nextPage":true},"Code":200,"Msg":"处理成功！"}
+ 耗时：433.6424 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 16:14:53.6506 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportconsumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":20}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：1776.7161 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 16:15:01.5144 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallconsumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageIndex":1,"pageSize":20}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：185.4779 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 16:23:33.5584 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/2016124037 
+ 方式：GET 
+ 参数：{"id":"2016124037"}
+ 结果：{"Data":{"employee":{"jobId":"2016124037","employeeName":"测试1","companyId":"a7e15ad2d4e243c598699e500b52e854","companyName":"四川华能","departmentId":"8e66c89e5acd456bbe9af44d036648c7","departmentName":"人事部","availableCount":150,"availableMoney":1300.0}},"Code":200,"Msg":"处理成功！"}
+ 耗时：491.4676 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 16:29:34.1338 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/exportallconsumerecord 
+ 方式：POST 
+ 参数：{"dictionary":{"employeename":"","companyid":"","jobid":"","timeend":"","timestart":"","pageindex":1,"pageSize":20}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：6.3917 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-24 16:49:22.1680 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/userecord/use 
+ 方式：POST 
+ 参数：{"useRecordCreation":{"UseRecordId":null,"AddAt":null,"GiveCountType":"A100002","UseNumber":null,"UseMoney":50.0,"Remarks":null,"JobId":"2016124037"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：576.2313 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)

@@ -1,0 +1,12 @@
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.1\BCM.Filters.deps.json
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.1\BCM.Filters.dll
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.1\BCM.Filters.pdb
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.1\BCM.Filters.csproj.CoreCompileInputs.cache
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.1\BCM.Filters.AssemblyInfoInputs.cache
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.1\BCM.Filters.AssemblyInfo.cs
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.1\BCM.Filters.dll
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.1\BCM.Filters.pdb
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.1\BCM.Filters.csprojAssemblyReference.cache
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.1\BCM.Common.dll
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.1\BCM.Common.pdb
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.1\BCM.Filters.csproj.CopyComplete

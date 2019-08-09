@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>BCM.Repositories</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Admin\**" />
+    <EmbeddedResource Remove="Admin\**" />
+    <None Remove="Admin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BCM.Common\BCM.Common.csproj" />
+    <ProjectReference Include="..\BCM.IRepositories\BCM.IRepositories.csproj" />
+  </ItemGroup>
+
+</Project>

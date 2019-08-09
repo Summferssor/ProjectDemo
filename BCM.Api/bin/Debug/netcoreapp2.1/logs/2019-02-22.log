@@ -1,0 +1,70 @@
+2019-02-22 11:06:10.8455 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/verifycode/num 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：157.3643 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-02-22 11:06:25.8059 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"admin","passWord":"e10adc3949ba59abbe56e057f20f883e","code":"39788"}}
+ 结果：{"Data":{"user":{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MjUyNzgwYzhmNTQ2OGM5NjBkMTdkNmVhZmU4MTZkIiwibmFtZSI6ImFkbWluIiwiZXhwIjoxNTUwODkxMTg1LCJpc3MiOiJsb29wIiwiYXVkIjoibG9vcCJ9.IFPt2C7ErOIZR4KMQ7gbe18PA02kIr50t1bRUbz0Sh4"},"Code":200,"Msg":"处理成功！"}
+ 耗时：975.9899 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-02-22 11:06:57.4959 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/BcmSystem/User 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"userList":[{"userId":"353b9f0aa4a6493e92a967f1683d4466","userName":"2016124038","userPassWord":"2016124038                      ","userRealName":"test111","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["f100f2d079644547893c19e488b8ccd8","c8046984411b4d2e870ea0e3eed82df0","b809ff7d64614b97b18a94a6d7112464"]},{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin","userPassWord":"e10adc3949ba59abbe56e057f20f883e","userRealName":"管理员","userRemarks":null,"userSex":null,"userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]},{"userId":"a77cf07267004a0eb159c680f3b636e7","userName":"2016124037","userPassWord":"39e7d09d2abcd6bb8c201b49ef1a3035","userRealName":"xytest","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：135.8613 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-02-22 12:49:44.4208 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/BcmSystem/User 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"userList":[{"userId":"353b9f0aa4a6493e92a967f1683d4466","userName":"2016124038","userPassWord":"2016124038                      ","userRealName":"test111","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["f100f2d079644547893c19e488b8ccd8","c8046984411b4d2e870ea0e3eed82df0","b809ff7d64614b97b18a94a6d7112464"]},{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin","userPassWord":"e10adc3949ba59abbe56e057f20f883e","userRealName":"管理员","userRemarks":null,"userSex":null,"userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]},{"userId":"a77cf07267004a0eb159c680f3b636e7","userName":"2016124037","userPassWord":"39e7d09d2abcd6bb8c201b49ef1a3035","userRealName":"xytest","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：733.3462 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-02-22 13:13:20.2650 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/BcmSystem/User 
+ 方式：GET 
+ 参数：{}
+ 结果：在返回结果前发生了异常
+ 耗时：14980.0008 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-02-22 13:13:51.9113 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/BcmSystem/User 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"userList":[{"userId":"353b9f0aa4a6493e92a967f1683d4466","userName":"2016124038","userPassWord":"2016124038                      ","userRealName":"test111","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["f100f2d079644547893c19e488b8ccd8","c8046984411b4d2e870ea0e3eed82df0","b809ff7d64614b97b18a94a6d7112464"]},{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin","userPassWord":"e10adc3949ba59abbe56e057f20f883e","userRealName":"管理员","userRemarks":null,"userSex":null,"userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]},{"userId":"a77cf07267004a0eb159c680f3b636e7","userName":"2016124037","userPassWord":"39e7d09d2abcd6bb8c201b49ef1a3035","userRealName":"xytest","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：208.1575 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-02-22 13:14:07.2641 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/BcmSystem/User 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"userList":[{"userId":"353b9f0aa4a6493e92a967f1683d4466","userName":"2016124038","userPassWord":"2016124038                      ","userRealName":"test111","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["f100f2d079644547893c19e488b8ccd8","c8046984411b4d2e870ea0e3eed82df0","b809ff7d64614b97b18a94a6d7112464"]},{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin","userPassWord":"e10adc3949ba59abbe56e057f20f883e","userRealName":"管理员","userRemarks":null,"userSex":null,"userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]},{"userId":"a77cf07267004a0eb159c680f3b636e7","userName":"2016124037","userPassWord":"39e7d09d2abcd6bb8c201b49ef1a3035","userRealName":"xytest","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：24.6619 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-02-22 13:14:52.3906 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/BcmSystem/User 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"userList":[{"userId":"353b9f0aa4a6493e92a967f1683d4466","userName":"2016124038","userPassWord":"2016124038                      ","userRealName":"test111","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["f100f2d079644547893c19e488b8ccd8","c8046984411b4d2e870ea0e3eed82df0","b809ff7d64614b97b18a94a6d7112464"]},{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin","userPassWord":"e10adc3949ba59abbe56e057f20f883e","userRealName":"管理员","userRemarks":null,"userSex":null,"userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]},{"userId":"a77cf07267004a0eb159c680f3b636e7","userName":"2016124037","userPassWord":"39e7d09d2abcd6bb8c201b49ef1a3035","userRealName":"xytest","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：747.7424 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-02-22 13:28:10.5141 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/BcmSystem/User 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"userList":[{"userId":"353b9f0aa4a6493e92a967f1683d4466","userName":"2016124038","userPassWord":"2016124038                      ","userRealName":"test111","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["f100f2d079644547893c19e488b8ccd8","c8046984411b4d2e870ea0e3eed82df0","b809ff7d64614b97b18a94a6d7112464"]},{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin","userPassWord":"e10adc3949ba59abbe56e057f20f883e","userRealName":"管理员","userRemarks":null,"userSex":null,"userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]},{"userId":"a77cf07267004a0eb159c680f3b636e7","userName":"2016124037","userPassWord":"39e7d09d2abcd6bb8c201b49ef1a3035","userRealName":"xytest","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：757.5109 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-02-22 13:36:30.9355 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/BcmSystem/User 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"userList":[{"userId":"353b9f0aa4a6493e92a967f1683d4466","userName":"2016124038","userPassWord":"2016124038                      ","userRealName":"test111","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["f100f2d079644547893c19e488b8ccd8","c8046984411b4d2e870ea0e3eed82df0","b809ff7d64614b97b18a94a6d7112464"]},{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin","userPassWord":"e10adc3949ba59abbe56e057f20f883e","userRealName":"管理员","userRemarks":null,"userSex":null,"userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]},{"userId":"a77cf07267004a0eb159c680f3b636e7","userName":"2016124037","userPassWord":"39e7d09d2abcd6bb8c201b49ef1a3035","userRealName":"xytest","userRemarks":null,"userSex":"男","userCellphone":null,"userAddress":null,"userEmail":null,"userStatus":null,"UserDepartmentId":null,"roleIds":["b809ff7d64614b97b18a94a6d7112464"]}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：830.1268 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)

@@ -1,0 +1,14 @@
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\bin\Debug\netcoreapp2.1\AdminSystem.Common.deps.json
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\bin\Debug\netcoreapp2.1\AdminSystem.Common.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\bin\Debug\netcoreapp2.1\AdminSystem.Common.pdb
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Debug\netcoreapp2.1\AdminSystem.Common.csproj.CoreCompileInputs.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Debug\netcoreapp2.1\AdminSystem.Common.AssemblyInfoInputs.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Debug\netcoreapp2.1\AdminSystem.Common.AssemblyInfo.cs
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Debug\netcoreapp2.1\AdminSystem.Common.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Debug\netcoreapp2.1\AdminSystem.Common.pdb
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Debug\netcoreapp2.1\AdminSystem.Common.csprojAssemblyReference.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Debug\netcoreapp2.1\AdminSystem.Common.csproj.CopyComplete
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Authorization.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.Abstractions.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Authorization.xml
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.Abstractions.xml

@@ -1,0 +1,53 @@
+2018-11-19 15:38:22.0484 [ERROR] System.Threading.ExecutionContext.RunInternal RegisterAsync Exception:  @Steeltoe.Discovery.Eureka.Transport.EurekaHttpClient+<RegisterAsync>d__9.MoveNext
+2018-11-19 15:38:22.1748 [ERROR] System.Threading.ExecutionContext.RunInternal Register failed, Exception: System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Steeltoe.Discovery.Eureka.Transport.EurekaHttpClient.RegisterAsync(InstanceInfo info)
+   at Steeltoe.Discovery.Eureka.DiscoveryClient.RegisterAsync()  @Steeltoe.Discovery.Eureka.DiscoveryClient+<RegisterAsync>d__58.MoveNext
+2018-11-19 15:38:24.2088 [ERROR] System.Threading.ExecutionContext.RunInternal DoGetApplicationsAsync Exception: System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Steeltoe.Discovery.Eureka.Transport.EurekaHttpClient.DoGetApplicationsAsync(String path, ISet`1 regions)  @Steeltoe.Discovery.Eureka.Transport.EurekaHttpClient+<DoGetApplicationsAsync>d__22.MoveNext
+2018-11-19 15:38:24.2317 [ERROR] System.Threading.ExecutionContext.RunInternal FetchRegistry failed, Exception: System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.WaitForCreatedConnectionAsync(ValueTask`1 creationTask)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Steeltoe.Discovery.Eureka.Transport.EurekaHttpClient.DoGetApplicationsAsync(String path, ISet`1 regions)
+   at Steeltoe.Discovery.Eureka.Transport.EurekaHttpClient.GetApplicationsAsync(ISet`1 regions)
+   at Steeltoe.Discovery.Eureka.DiscoveryClient.FetchFullRegistryAsync()
+   at Steeltoe.Discovery.Eureka.DiscoveryClient.FetchRegistryAsync(Boolean fullUpdate)  @Steeltoe.Discovery.Eureka.DiscoveryClient+<FetchRegistryAsync>d__56.MoveNext
+2018-11-19 21:40:53.5242 [WARN] System.Threading.ExecutionContext.RunInternal FetchFullRegistry discarding fetch, race condition  @Steeltoe.Discovery.Eureka.DiscoveryClient+<FetchFullRegistryAsync>d__60.MoveNext
+2018-11-19 21:41:23.5639 [ERROR] System.Threading.ExecutionContext.RunInternal HeartBeat failed  @Steeltoe.Discovery.Eureka.DiscoveryClient+<HeartBeatTaskAsync>d__65.MoveNext
+2018-11-19 21:41:23.8271 [WARN] System.Threading.ExecutionContext.RunInternal FetchFullRegistry discarding fetch, race condition  @Steeltoe.Discovery.Eureka.DiscoveryClient+<FetchFullRegistryAsync>d__60.MoveNext
+2018-11-19 21:41:53.5681 [ERROR] System.Threading.ExecutionContext.RunInternal HeartBeat failed  @Steeltoe.Discovery.Eureka.DiscoveryClient+<HeartBeatTaskAsync>d__65.MoveNext
+2018-11-19 21:41:53.9595 [WARN] System.Threading.ExecutionContext.RunInternal FetchFullRegistry discarding fetch, race condition  @Steeltoe.Discovery.Eureka.DiscoveryClient+<FetchFullRegistryAsync>d__60.MoveNext
+2018-11-19 23:23:21.5530 [ERROR] System.Threading.ExecutionContext.RunInternal HeartBeat failed  @Steeltoe.Discovery.Eureka.DiscoveryClient+<HeartBeatTaskAsync>d__65.MoveNext
+2018-11-19 23:23:51.5319 [ERROR] System.Threading.ExecutionContext.RunInternal HeartBeat failed  @Steeltoe.Discovery.Eureka.DiscoveryClient+<HeartBeatTaskAsync>d__65.MoveNext
+2018-11-19 23:24:21.5162 [ERROR] System.Threading.ExecutionContext.RunInternal HeartBeat failed  @Steeltoe.Discovery.Eureka.DiscoveryClient+<HeartBeatTaskAsync>d__65.MoveNext
+2018-11-19 23:24:51.5364 [ERROR] System.Threading.ExecutionContext.RunInternal HeartBeat failed  @Steeltoe.Discovery.Eureka.DiscoveryClient+<HeartBeatTaskAsync>d__65.MoveNext

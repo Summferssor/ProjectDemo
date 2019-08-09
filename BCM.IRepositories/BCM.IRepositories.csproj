@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Admin\**" />
+    <EmbeddedResource Remove="Admin\**" />
+    <None Remove="Admin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BCM.Models\BCM.Models.csproj" />
+  </ItemGroup>
+
+</Project>

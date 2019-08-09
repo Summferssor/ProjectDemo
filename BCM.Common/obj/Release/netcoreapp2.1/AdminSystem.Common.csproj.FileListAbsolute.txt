@@ -1,0 +1,9 @@
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\bin\Release\netcoreapp2.1\AdminSystem.Common.deps.json
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\bin\Release\netcoreapp2.1\AdminSystem.Common.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\bin\Release\netcoreapp2.1\AdminSystem.Common.pdb
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Release\netcoreapp2.1\AdminSystem.Common.csprojAssemblyReference.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Release\netcoreapp2.1\AdminSystem.Common.csproj.CoreCompileInputs.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Release\netcoreapp2.1\AdminSystem.Common.AssemblyInfoInputs.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Release\netcoreapp2.1\AdminSystem.Common.AssemblyInfo.cs
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Release\netcoreapp2.1\AdminSystem.Common.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Common\obj\Release\netcoreapp2.1\AdminSystem.Common.pdb

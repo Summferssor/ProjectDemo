@@ -1,0 +1,921 @@
+2018-12-20 01:27:20.3250 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"四川华能","CountOrNot":null,"ParentId":null,"Remarks":"四川华能","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：643.06 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 01:30:24.2159 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"四川华能","CountOrNot":null,"ParentId":null,"Remarks":"四川华能","Sort":null}}
+ 结果：{"Data":{"content":"公司重复"},"Code":400,"Msg":"处理失败！"}
+ 耗时：11.4808 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 01:31:49.0754 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"四川华能","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"四川华能","Sort":null}}
+ 结果：{"Data":{"content":"上级部门不存在"},"Code":400,"Msg":"处理失败！"}
+ 耗时：34.0463 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 01:32:37.0514 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"四川华能","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"四川华能","Sort":null}}
+ 结果：{"Data":{"content":"部门重复"},"Code":400,"Msg":"处理失败！"}
+ 耗时：440.1406 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 01:33:03.3588 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：107.9667 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 01:33:42.2276 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"财务部","CountOrNot":null,"ParentId":null,"Remarks":"财务部","Sort":null}}
+ 结果：{"Data":{"content":"未选择上级部门"},"Code":400,"Msg":"处理失败！"}
+ 耗时：0.1434 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:36:01.0874 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"财务部","CountOrNot":null,"ParentId":null,"Remarks":"财务部","Sort":null}}
+ 结果：{"Data":{"content":"未选择上级部门"},"Code":400,"Msg":"处理失败！"}
+ 耗时：17.3277 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:36:24.1111 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：902.6126 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:36:31.1289 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司1","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：886.4344 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:36:33.9104 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司2","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：428.1549 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:36:52.0954 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司3","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：69.7567 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:36:52.6606 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司3","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：16867.4189 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:36:56.8188 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司4","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：30.7626 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:37:02.4706 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司5","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：26.5232 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:37:05.4030 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司6","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：45.4079 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:37:08.6724 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司7","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：44.4084 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:37:12.5290 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司8","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：31.6203 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 13:37:16.1523 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company 
+ 方式：POST 
+ 参数：{"companyCreation":{"Id":null,"Name":"公司9","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：50.0404 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 14:33:24.5158 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"华能","Password":"1"}}
+ 结果：在返回结果前发生了异常
+ 耗时：21.5984 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 14:33:24.6517 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The given key 'passWord' was not present in the dictionary. The given key 'passWord' was not present in the dictionary. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 14:33:42.3151 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"华能","uassWord":"1"}}
+ 结果：在返回结果前发生了异常
+ 耗时：0.6443 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 14:33:42.3244 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The given key 'passWord' was not present in the dictionary. The given key 'passWord' was not present in the dictionary. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 14:34:45.0628 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"华能","passWord":"1"}}
+ 结果：{"Data":{},"Code":404,"Msg":"未找到资源！"}
+ 耗时：616.9634 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 14:43:47.5999 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"1"}}
+ 结果：在返回结果前发生了异常
+ 耗时：600.0252 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 14:43:47.7150 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next 'OFFSET' 附近有语法错误。
+在 FETCH 语句中选项 NEXT 的用法无效。 'OFFSET' 附近有语法错误。
+在 FETCH 语句中选项 NEXT 的用法无效。 @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 14:49:49.3497 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"1"}}
+ 结果：在返回结果前发生了异常
+ 耗时：37808.3399 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 14:49:52.9684 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next 'OFFSET' 附近有语法错误。
+在 FETCH 语句中选项 NEXT 的用法无效。 'OFFSET' 附近有语法错误。
+在 FETCH 语句中选项 NEXT 的用法无效。 @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 14:51:04.8019 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"1"}}
+ 结果：在返回结果前发生了异常
+ 耗时：49316.2435 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 14:51:04.8106 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next 'OFFSET' 附近有语法错误。
+在 FETCH 语句中选项 NEXT 的用法无效。 'OFFSET' 附近有语法错误。
+在 FETCH 语句中选项 NEXT 的用法无效。 @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 14:56:23.8563 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"1"}}
+ 结果：在返回结果前发生了异常
+ 耗时：560.0876 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 14:56:23.9597 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next 'OFFSET' 附近有语法错误。
+在 FETCH 语句中选项 NEXT 的用法无效。 'OFFSET' 附近有语法错误。
+在 FETCH 语句中选项 NEXT 的用法无效。 @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 14:59:05.6868 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"1"}}
+ 结果：在返回结果前发生了异常
+ 耗时：606.8751 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:25:42.0618 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"1"}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：33580.8757 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:26:05.4019 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"1"}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：2.2411 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:26:10.7187 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"1"}}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：0.8177 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:28:53.3789 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"1"}}
+ 结果：{"Data":{"list":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：257.1968 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:30:49.2204 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"1"}}
+ 结果：{"Data":{"list":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：638.7716 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:31:02.9813 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","page":"2"}}
+ 结果：{"Data":{"list":[]},"Code":200,"Msg":"处理成功！"}
+ 耗时：13.2487 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:31:45.1374 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"2"}}
+ 结果：{"Data":{"list":[{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：9.9421 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:31:51.5927 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"1"}}
+ 结果：{"Data":{"list":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：12.4408 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:39:02.9547 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"1"}}
+ 结果：{"Data":{"list":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：510.9546 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:39:46.8914 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"1"}}
+ 结果：{"Data":{"list":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：615.2575 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:39:55.5271 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"2"}}
+ 结果：{"Data":{"list":[{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：14.031 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:40:52.8961 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"2"}}
+ 结果：{"Data":{"list":[]},"Code":200,"Msg":"处理成功！"}
+ 耗时：683.0896 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:40:58.1693 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"2"}}
+ 结果：{"Data":{"list":[]},"Code":200,"Msg":"处理成功！"}
+ 耗时：17.5189 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:41:02.2767 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"1"}}
+ 结果：{"Data":{"list":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：13.306 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:41:11.1832 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"2"}}
+ 结果：{"Data":{"list":[]},"Code":200,"Msg":"处理成功！"}
+ 耗时：9.2092 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:41:17.0482 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"3"}}
+ 结果：{"Data":{"list":[]},"Code":200,"Msg":"处理成功！"}
+ 耗时：8.1987 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:41:58.4238 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"1"}}
+ 结果：{"Data":{"list":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：579.098 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:42:07.4975 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"2"}}
+ 结果：{"Data":{"list":[{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：14.1262 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:42:12.4169 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"3"}}
+ 结果：{"Data":{"list":[{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：8.2413 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:42:19.1834 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"4"}}
+ 结果：{"Data":{"list":[{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：8.9627 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:45:42.9132 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"4"}}
+ 结果：{"Data":{"list":[]},"Code":200,"Msg":"处理成功！"}
+ 耗时：574.2976 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:45:51.0386 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"1"}}
+ 结果：{"Data":{"list":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：18.1269 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:45:55.2351 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"1"}}
+ 结果：{"Data":{"list":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：8.3602 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:52:57.4477 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","page":"1"}}
+ 结果：在返回结果前发生了异常
+ 耗时：13.7351 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:52:57.5966 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The given key 'pageIndex' was not present in the dictionary. The given key 'pageIndex' was not present in the dictionary. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 15:53:32.1589 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"1","pageSize":"20"}}
+ 结果：{"Data":{"PageData":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}],"PageSize":"20","PageCount":13,"PageIndex":"1"},"Code":200,"Msg":"处理成功！"}
+ 耗时：684.8421 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:54:23.0752 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":1,"pageSize":20}}
+ 结果：在返回结果前发生了异常
+ 耗时：21.8713 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:54:23.2182 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Unable to cast object of type 'System.Int64' to type 'System.Int32'. Unable to cast object of type 'System.Int64' to type 'System.Int32'. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 15:55:03.9263 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":1,"pageSize":20}}
+ 结果：在返回结果前发生了异常
+ 耗时：11.8178 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:55:04.0562 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Unable to cast object of type 'System.Int64' to type 'System.Int32'. Unable to cast object of type 'System.Int64' to type 'System.Int32'. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 15:57:29.3022 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"1","pageSize":"20"}}
+ 结果：在返回结果前发生了异常
+ 耗时：0.5973 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:57:29.3107 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Unable to cast object of type 'System.String' to type 'System.Int32'. Unable to cast object of type 'System.String' to type 'System.Int32'. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 15:58:49.2869 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":0,"pageSize":0}}
+ 结果：在返回结果前发生了异常
+ 耗时：0.5151 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 15:58:49.2869 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Unable to cast object of type 'System.Int64' to type 'System.Int32'. Unable to cast object of type 'System.Int64' to type 'System.Int32'. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 16:02:26.0908 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"1","pageSize":"20"}}
+ 结果：在返回结果前发生了异常
+ 耗时：0.8331 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:02:26.1102 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Unable to cast object of type 'System.String' to type 'System.Int32'. Unable to cast object of type 'System.String' to type 'System.Int32'. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 16:02:52.6797 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"1","pageSize":"20"}}
+ 结果：{"Data":{"PageData":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}],"PageSize":"20","PageCount":13,"PageIndex":"1"},"Code":200,"Msg":"处理成功！"}
+ 耗时：565.7966 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:02:59.4489 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"1","pageSize":"20"}}
+ 结果：{"Data":{"PageData":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}],"PageSize":"20","PageCount":13,"PageIndex":"1"},"Code":200,"Msg":"处理成功！"}
+ 耗时：10.6449 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:03:05.3268 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"0","pageSize":"20"}}
+ 结果：{"Data":{"PageData":[],"PageSize":"20","PageCount":0,"PageIndex":"0"},"Code":200,"Msg":"处理成功！"}
+ 耗时：8.9975 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:05:24.9998 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"0","pageSize":"20"}}
+ 结果：{"Data":{"PageData":[],"PageSize":"20","PageCount":0,"PageIndex":"0"},"Code":200,"Msg":"处理成功！"}
+ 耗时：66785.3516 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:05:57.0758 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"2","pageSize":"20"}}
+ 结果：{"Data":{"PageData":[],"PageSize":"20","PageCount":0,"PageIndex":"2"},"Code":200,"Msg":"处理成功！"}
+ 耗时：11.1553 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:12:53.7057 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"2","pageSize":"20"}}
+ 结果：{"Data":{"PageData":[],"PageSize":"20","PageCount":0,"PageIndex":"2"},"Code":200,"Msg":"处理成功！"}
+ 耗时：5167.8604 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:24:29.4983 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"1","pageSize":"20"}}
+ 结果：{"Data":{"PageData":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}],"PageSize":"20","PageCount":13,"PageIndex":"1"},"Code":200,"Msg":"处理成功！"}
+ 耗时：693355.0128 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:28:48.2794 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"1","pageSize":"3"}}
+ 结果：{"Data":{"PageData":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}],"PageSize":"3","PageCount":3,"PageIndex":"1","TotalPages":5},"Code":200,"Msg":"处理成功！"}
+ 耗时：548.5858 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:29:18.2000 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"1","pageSize":"20"}}
+ 结果：{"Data":{"PageData":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}],"PageSize":"20","PageCount":13,"PageIndex":"1","TotalPages":1},"Code":200,"Msg":"处理成功！"}
+ 耗时：12.4681 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:31:12.9461 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":"1","pageSize":"20"}}
+ 结果：在返回结果前发生了异常
+ 耗时：12.2152 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:31:13.0919 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Unable to cast object of type 'System.String' to type 'System.Int64'. Unable to cast object of type 'System.String' to type 'System.Int64'. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 16:31:26.5360 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"PageData":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}],"PageSize":20,"PageCount":13,"PageIndex":1,"TotalPages":1},"Code":200,"Msg":"处理成功！"}
+ 耗时：726.5009 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:38:39.2435 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"Content":"已到第一页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：680.9989 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:39:04.3854 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"PageData":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}],"PageSize":20,"PageCount":13,"PageIndex":1,"TotalPages":1},"Code":200,"Msg":"处理成功！"}
+ 耗时：721.4528 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:39:08.5759 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":0,"pageSize":20}}
+ 结果：{"Data":{"Content":"已到最后一页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：15.5606 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:39:21.8877 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":2,"pageSize":20}}
+ 结果：{"Data":{"Content":"已到第一页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：8.9584 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:45:57.3163 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":2,"pageSize":20}}
+ 结果：{"Data":{"PageData":[],"PageSize":20,"PageCount":0,"PageIndex":2,"TotalPages":1},"Code":200,"Msg":"处理成功！"}
+ 耗时：661.84 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:46:34.9360 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":2,"pageSize":20}}
+ 结果：{"Data":{"Content":"已达底页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：551.2062 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:46:39.5408 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"PageData":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null},{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"a37555f44a5349148ae997c138eff336","Remarks":"财务部","Sort":null},{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}],"PageSize":20,"PageCount":13,"PageIndex":1,"TotalPages":1},"Code":200,"Msg":"处理成功！"}
+ 耗时：13.3696 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:46:42.7022 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":0,"pageSize":20}}
+ 结果：{"Data":{"Content":"已达顶页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：12.0197 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:48:00.0630 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"公司","pageIndex":0,"pageSize":20}}
+ 结果：{"Data":{"Content":"已达顶页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：8.5052 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:48:03.8552 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"公司","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"PageData":[{"Id":"380a82f9ab6e497790059271aaf6c414","Name":"公司","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司1","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6811c1d7b563430f9d314ba2b8c42027","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null}],"PageSize":20,"PageCount":11,"PageIndex":1,"TotalPages":1},"Code":200,"Msg":"处理成功！"}
+ 耗时：10.6267 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:48:13.4846 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"PageData":[{"Id":"a37555f44a5349148ae997c138eff336","Name":"四川华能","CountOrNot":null,"ParentId":"0                               ","Remarks":"四川华能","Sort":null}],"PageSize":20,"PageCount":1,"PageIndex":1,"TotalPages":1},"Code":200,"Msg":"处理成功！"}
+ 耗时：9.965 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:50:06.3940 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","pageIndex":0,"pageSize":20}}
+ 结果：{"Data":{"Content":"已达顶页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：13.3617 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 16:50:13.7194 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","pageIndex":2,"pageSize":20}}
+ 结果：{"Data":{"Content":"已达底页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：13.916 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:01:11.5568 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","pageIndex":2}}
+ 结果：在返回结果前发生了异常
+ 耗时：24.4254 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:01:11.7225 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The given key 'pageSize' was not present in the dictionary. The given key 'pageSize' was not present in the dictionary. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 17:09:37.5420 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"华能","pageIndex":2}}
+ 结果：{"Data":{"content":"参数错误"},"Code":400,"Msg":"处理失败！"}
+ 耗时：13.8137 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:25:46.8906 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/list 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"CompanyList":[{"companyId":"a37555f44a5349148ae997c138eff336","companyName":"四川华能"},{"companyId":"380a82f9ab6e497790059271aaf6c414","companyName":"公司"},{"companyId":"3aba7477fc6747488625faaaf1a77313","companyName":"公司1"},{"companyId":"13f31c8baf3e442a84bcadcb9ac54096","companyName":"公司2"},{"companyId":"dde97d860d6b4d909511f3d47c2896fe","companyName":"公司3"},{"companyId":"b9de2cae8c8947ce890557b08c4a10e5","companyName":"公司4"},{"companyId":"c4e1cc25b2cf4212ba6a2a955107e3b9","companyName":"公司5"},{"companyId":"d89160223fe04cfdb25e2ce4857abd9d","companyName":"公司6"},{"companyId":"931172acc99b4b30a466f055c16b467a","companyName":"公司7"},{"companyId":"82f93d7935e64ff6ab9eca28abedb68c","companyName":"公司8"},{"companyId":"6bb5670889d8474a8167c69ce27bfd98","companyName":"公司9"},{"companyId":"6811c1d7b563430f9d314ba2b8c42027","companyName":"公司3"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：596.1931 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:25:49.2147 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/list 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"CompanyList":[{"companyId":"a37555f44a5349148ae997c138eff336","companyName":"四川华能"},{"companyId":"380a82f9ab6e497790059271aaf6c414","companyName":"公司"},{"companyId":"3aba7477fc6747488625faaaf1a77313","companyName":"公司1"},{"companyId":"13f31c8baf3e442a84bcadcb9ac54096","companyName":"公司2"},{"companyId":"dde97d860d6b4d909511f3d47c2896fe","companyName":"公司3"},{"companyId":"b9de2cae8c8947ce890557b08c4a10e5","companyName":"公司4"},{"companyId":"c4e1cc25b2cf4212ba6a2a955107e3b9","companyName":"公司5"},{"companyId":"d89160223fe04cfdb25e2ce4857abd9d","companyName":"公司6"},{"companyId":"931172acc99b4b30a466f055c16b467a","companyName":"公司7"},{"companyId":"82f93d7935e64ff6ab9eca28abedb68c","companyName":"公司8"},{"companyId":"6bb5670889d8474a8167c69ce27bfd98","companyName":"公司9"},{"companyId":"6811c1d7b563430f9d314ba2b8c42027","companyName":"公司3"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：15.2671 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:39:26.8055 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/list 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"companyList":[{"companyId":"a37555f44a5349148ae997c138eff336","companyName":"四川华能"},{"companyId":"380a82f9ab6e497790059271aaf6c414","companyName":"公司"},{"companyId":"3aba7477fc6747488625faaaf1a77313","companyName":"公司1"},{"companyId":"13f31c8baf3e442a84bcadcb9ac54096","companyName":"公司2"},{"companyId":"dde97d860d6b4d909511f3d47c2896fe","companyName":"公司3"},{"companyId":"b9de2cae8c8947ce890557b08c4a10e5","companyName":"公司4"},{"companyId":"c4e1cc25b2cf4212ba6a2a955107e3b9","companyName":"公司5"},{"companyId":"d89160223fe04cfdb25e2ce4857abd9d","companyName":"公司6"},{"companyId":"931172acc99b4b30a466f055c16b467a","companyName":"公司7"},{"companyId":"82f93d7935e64ff6ab9eca28abedb68c","companyName":"公司8"},{"companyId":"6bb5670889d8474a8167c69ce27bfd98","companyName":"公司9"},{"companyId":"6811c1d7b563430f9d314ba2b8c42027","companyName":"公司3"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：501.0911 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:39:41.8705 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/380a82f9ab6e497790059271aaf6c414 
+ 方式：DELETE 
+ 参数：{"id":"380a82f9ab6e497790059271aaf6c414"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：203.9504 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:51:31.2280 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/3aba7477fc6747488625faaaf1a77313 
+ 方式：PUT 
+ 参数：{"id":"3aba7477fc6747488625faaaf1a77313","companyModification":{"Id":null,"Name":"公司5","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{"content":"上级部门不存在"},"Code":400,"Msg":"处理失败！"}
+ 耗时：538.2897 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:52:41.1781 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/3aba7477fc6747488625faaaf1a77313 
+ 方式：PUT 
+ 参数：{"id":"3aba7477fc6747488625faaaf1a77313","companyModification":{"Id":null,"Name":"公司5","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{"content":"公司重复"},"Code":400,"Msg":"处理失败！"}
+ 耗时：541.9697 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:53:17.0985 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/3aba7477fc6747488625faaaf1a77313 
+ 方式：PUT 
+ 参数：{"id":"3aba7477fc6747488625faaaf1a77313","companyModification":{"Id":null,"Name":"公司put","CountOrNot":null,"ParentId":null,"Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：184.3712 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:55:03.0164 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department/d8fd072379f846d4a8fefc3bfddc58ca 
+ 方式：PUT 
+ 参数：{"id":"d8fd072379f846d4a8fefc3bfddc58ca","companyModification":{"Id":null,"Name":"财务部","CountOrNot":null,"ParentId":"3aba7477fc6747488625faaaf1a77313","Remarks":"公司","Sort":null}}
+ 结果：{"Data":{"content":"部门重复"},"Code":400,"Msg":"处理失败！"}
+ 耗时：26.1147 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:56:55.7748 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department/d8fd072379f846d4a8fefc3bfddc58ca 
+ 方式：PUT 
+ 参数：{"id":"d8fd072379f846d4a8fefc3bfddc58ca","companyModification":{"Id":null,"Name":"财务部","CountOrNot":null,"ParentId":"3aba7477fc6747488625faaaf1a77313","Remarks":"公司","Sort":null}}
+ 结果：{"Data":{"content":"部门重复"},"Code":400,"Msg":"处理失败！"}
+ 耗时：552.1018 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:57:51.6493 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department/d8fd072379f846d4a8fefc3bfddc58ca 
+ 方式：PUT 
+ 参数：{"id":"d8fd072379f846d4a8fefc3bfddc58ca","companyModification":{"Id":null,"Name":"财务部","CountOrNot":null,"ParentId":"3aba7477fc6747488625faaaf1a77313","Remarks":"公司","Sort":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：595.2706 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:57:51.7911 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'Id' on entity type 'Company' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'Id' on entity type 'Company' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 17:59:40.0021 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department/d8fd072379f846d4a8fefc3bfddc58ca 
+ 方式：PUT 
+ 参数：{"id":"d8fd072379f846d4a8fefc3bfddc58ca","companyModification":{"Id":null,"Name":"财务部","CountOrNot":null,"ParentId":"3aba7477fc6747488625faaaf1a77313","Remarks":"公司","Sort":null}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：575.1714 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 17:59:54.2311 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department/d8fd072379f846d4a8fefc3bfddc58ca 
+ 方式：PUT 
+ 参数：{"id":"d8fd072379f846d4a8fefc3bfddc58ca","companyModification":{"Id":null,"Name":"财务部","CountOrNot":null,"ParentId":"3aba7477fc6747488625aaaf1a77313","Remarks":"公司","Sort":null}}
+ 结果：{"Data":{"content":"上级部门不存在"},"Code":400,"Msg":"处理失败！"}
+ 耗时：15.4717 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:19:09.0036 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/sort/3aba7477fc6747488625aaaf1a77313 
+ 方式：PUT 
+ 参数：{"id":"3aba7477fc6747488625aaaf1a77313","dictionary":{"sort":1}}
+ 结果：{"Data":{},"Code":404,"Msg":"未找到资源！"}
+ 耗时：610.2877 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:19:44.9216 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/sort/a37555f44a5349148ae997c138eff336 
+ 方式：PUT 
+ 参数：{"id":"a37555f44a5349148ae997c138eff336","dictionary":{"sort":1}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：170.994 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:21:31.5354 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/sort/a37555f44a5349148ae997c138eff336 
+ 方式：PUT 
+ 参数：{"id":"a37555f44a5349148ae997c138eff336","companyModification":{"Id":null,"Name":null,"CountOrNot":null,"ParentId":null,"Remarks":null,"Sort":2}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：639.2666 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:32:00.0413 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/importEmployee 
+ 方式：POST 
+ 参数：{"excelfile":{"ContentDisposition":"form-data; name=\"excelfile\"; filename=\"test.xlsx\"","ContentType":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","Headers":{"Content-Disposition":["form-data; name=\"excelfile\"; filename=\"test.xlsx\""],"Content-Type":["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"]},"Length":9325,"Name":"excelfile","FileName":"test.xlsx"}}
+ 结果：{"Data":{"exception":"The instance of entity type 'Employee' cannot be tracked because another instance with the same key value for {'JobId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values."},"Code":500,"Msg":"服务器内部错误！"}
+ 耗时：1071.45 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:36:37.3875 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/importEmployee 
+ 方式：POST 
+ 参数：{"excelfile":{"ContentDisposition":"form-data; name=\"excelfile\"; filename=\"test.xlsx\"","ContentType":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","Headers":{"Content-Disposition":["form-data; name=\"excelfile\"; filename=\"test.xlsx\""],"Content-Type":["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"]},"Length":9325,"Name":"excelfile","FileName":"test.xlsx"}}
+ 结果：{"Data":{"exception":"The instance of entity type 'Employee' cannot be tracked because another instance with the same key value for {'JobId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values."},"Code":500,"Msg":"服务器内部错误！"}
+ 耗时：63613.3435 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:38:15.5878 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/importEmployee 
+ 方式：POST 
+ 参数：{"excelfile":{"ContentDisposition":"form-data; name=\"excelfile\"; filename=\"test.xlsx\"","ContentType":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","Headers":{"Content-Disposition":["form-data; name=\"excelfile\"; filename=\"test.xlsx\""],"Content-Type":["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"]},"Length":9325,"Name":"excelfile","FileName":"test.xlsx"}}
+ 结果：{"Data":{"exception":"The instance of entity type 'Employee' cannot be tracked because another instance with the same key value for {'JobId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values."},"Code":500,"Msg":"服务器内部错误！"}
+ 耗时：78871.4513 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:40:07.8211 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/importEmployee 
+ 方式：POST 
+ 参数：{"excelfile":{"ContentDisposition":"form-data; name=\"excelfile\"; filename=\"test.xlsx\"","ContentType":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","Headers":{"Content-Disposition":["form-data; name=\"excelfile\"; filename=\"test.xlsx\""],"Content-Type":["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"]},"Length":9346,"Name":"excelfile","FileName":"test.xlsx"}}
+ 结果：{"Data":{"fail_import":{},"totle":9,"failCount":0},"Code":200,"Msg":"处理成功！"}
+ 耗时：221.962 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:55:25.1162 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"x","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"JobId":"2016124037","Name":"xytest","Password":"2016124037","Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":"2018-12-20T18:40:07.63","Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":"a37555f44a5349148ae997c138eff336"}],"pageSize":3,"pageCount":1,"pageIndex":1,"totalPages":1},"Code":200,"Msg":"处理成功！"}
+ 耗时：613.5746 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:56:47.1454 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"0","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"content":"已达底页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：20.8386 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:56:53.1059 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":1,"pageSize":3}}
+ 结果：{"Data":{"pageData":[{"JobId":"2016124037","Name":"xytest","Password":"2016124037","Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":"2018-12-20T18:40:07.63","Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":"a37555f44a5349148ae997c138eff336"},{"JobId":"2016124038","Name":"test111","Password":"2016124038","Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":"2018-12-20T18:40:07.64","Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":"a37555f44a5349148ae997c138eff336"},{"JobId":"2016124039","Name":"123213","Password":"2016124039","Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":"2018-12-20T18:40:07.647","Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":"a37555f44a5349148ae997c138eff336"}],"pageSize":3,"pageCount":3,"pageIndex":1,"totalPages":3},"Code":200,"Msg":"处理成功！"}
+ 耗时：10.1115 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:57:31.5579 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":0,"pageSize":3}}
+ 结果：{"Data":{"content":"已达顶页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：8.527 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:57:39.3703 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":20,"pageSize":3}}
+ 结果：{"Data":{"content":"已达底页"},"Code":400,"Msg":"处理失败！"}
+ 耗时：11.4235 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 18:58:07.5304 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":20}}
+ 结果：{"Data":{"content":"参数错误"},"Code":400,"Msg":"处理失败！"}
+ 耗时：0.12 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 19:41:21.4521 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee 
+ 方式：POST 
+ 参数：{"employeeCreation":{"JobId":"2012124037","Name":"teat_add","Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":"a37555f44a5349148ae997c138eff336"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：1477.5782 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 19:43:01.8404 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee 
+ 方式：POST 
+ 参数：{"employeeCreation":{"JobId":"2012124037","Name":"teat_add","Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":"a37555f44a5349148ae997c138eff336"}}
+ 结果：{"Data":{"content":"工号已存在"},"Code":400,"Msg":"处理失败！"}
+ 耗时：20.3942 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 19:44:34.2326 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/2012124037 
+ 方式：POST 
+ 参数：{"dictionary":{"name":"teat_add_putputputputputput","companyId":"a37555f44a5349148ae997c138eff336"}}
+ 结果：{"Data":{"content":"参数错误"},"Code":400,"Msg":"处理失败！"}
+ 耗时：1.9828 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 19:44:57.0146 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/2012124037 
+ 方式：PUT 
+ 参数：{"id":"2012124037","employeeModification":{"JobId":null,"Name":"teat_add_putputputputputput","Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":"a37555f44a5349148ae997c138eff336"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：122.2746 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 20:06:19.7300 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/2012124037 
+ 方式：DELETE 
+ 参数：{"id":"2012124037"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：56.8374 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:03:39.5359 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/login 
+ 方式：DELETE 
+ 参数：{"id":"login"}
+ 结果：{"Data":{},"Code":404,"Msg":"未找到资源！"}
+ 耗时：515.979 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:03:43.2948 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/login 
+ 方式：POST 
+ 参数：{"dictionary":{"jobId":"2016124037","password":"2016124037"}}
+ 结果：{"Data":{"content":"参数错误"},"Code":400,"Msg":"处理失败！"}
+ 耗时：2.0681 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:03:53.1156 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/login 
+ 方式：POST 
+ 参数：{"dictionary":{"jobId":"2016124037","passWord":"2016124037"}}
+ 结果：{"Data":{"employee":{"JobId":"2016124037","Name":"xytest"}},"Code":200,"Msg":"处理成功！"}
+ 耗时：67.6617 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:11:22.9184 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/VerifyCode/mix 
+ 方式：POST 
+ 参数：{"code":"mix"}
+ 结果：在返回结果前发生了异常
+ 耗时：8.0979 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:11:22.9369 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Object reference not set to an instance of an object. Object reference not set to an instance of an object. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 23:11:26.1237 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/VerifyCode/mix 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：100.4581 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:11:43.3522 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/VerifyCode/hmoi 
+ 方式：POST 
+ 参数：{"code":"hmoi"}
+ 结果：{"Data":{},"Code":401,"Msg":"验证失败！"}
+ 耗时：0.9453 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:12:09.9666 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/VerifyCode/mix 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：8.0335 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:12:28.8421 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/VerifyCode/47LrN 
+ 方式：POST 
+ 参数：{"code":"47LrN"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：0.1679 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:15:37.4172 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/VerifyCode/47LrN 
+ 方式：POST 
+ 参数：{"code":"47LrN"}
+ 结果：在返回结果前发生了异常
+ 耗时：11.821 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:15:37.5486 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Object reference not set to an instance of an object. Object reference not set to an instance of an object. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-20 23:15:56.5473 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/VerifyCode/mix 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：92.8117 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:16:03.6906 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/VerifyCode/47LrN 
+ 方式：POST 
+ 参数：{"code":"47LrN"}
+ 结果：{"Data":{"content":"验证码错误"},"Code":401,"Msg":"验证失败！"}
+ 耗时：0.7482 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:33:46.1496 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/qwe 
+ 方式：POST 
+ 参数：{}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：6967.968 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:34:57.3874 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/qwe 
+ 方式：POST 
+ 参数：{}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：4882.9373 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:34:59.6024 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"pageData":[{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"3aba7477fc6747488625faaaf1a77313","Remarks":"公司","Sort":null},{"Id":"e6418062fdb44965ada1cf1935ec0dd1","Name":"公0","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司put","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"a50c28c8788443c7996e38821657f8bc","Name":"公658","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"f06721bc1ac84e9f85b1f838eeff4996","Name":"公659","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"cd475498f9b744779427c77fd2de9f13","Name":"公660","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"32ec01d61e30442a9b4b3091068758dd","Name":"公661","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"d1c169c0a483451aa23f47a338ca25cb","Name":"公662","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"d54c62af4c324d04b6b37f9347126457","Name":"公663","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"4b9779ed36da448f9677e4c7de210334","Name":"公664","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"5a2f9dfc1f8f469687b64080d8ef08c4","Name":"公665","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"a6d973d16e984720b6e1a6178b365d0c","Name":"公666","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null}],"pageSize":20,"pageCount":20,"pageIndex":1,"totalPages":101},"Code":200,"Msg":"处理成功！"}
+ 耗时：288.9344 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:35:14.3780 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":1,"pageSize":20}}
+ 结果：{"Data":{"pageData":[{"Id":"d8fd072379f846d4a8fefc3bfddc58ca","Name":"财务部","CountOrNot":null,"ParentId":"3aba7477fc6747488625faaaf1a77313","Remarks":"公司","Sort":null},{"Id":"e6418062fdb44965ada1cf1935ec0dd1","Name":"公0","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"3aba7477fc6747488625faaaf1a77313","Name":"公司put","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"13f31c8baf3e442a84bcadcb9ac54096","Name":"公司2","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"dde97d860d6b4d909511f3d47c2896fe","Name":"公司3","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"b9de2cae8c8947ce890557b08c4a10e5","Name":"公司4","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"c4e1cc25b2cf4212ba6a2a955107e3b9","Name":"公司5","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"d89160223fe04cfdb25e2ce4857abd9d","Name":"公司6","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"931172acc99b4b30a466f055c16b467a","Name":"公司7","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"82f93d7935e64ff6ab9eca28abedb68c","Name":"公司8","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"6bb5670889d8474a8167c69ce27bfd98","Name":"公司9","CountOrNot":null,"ParentId":"0                               ","Remarks":"公司","Sort":null},{"Id":"a50c28c8788443c7996e38821657f8bc","Name":"公658","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"f06721bc1ac84e9f85b1f838eeff4996","Name":"公659","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"cd475498f9b744779427c77fd2de9f13","Name":"公660","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"32ec01d61e30442a9b4b3091068758dd","Name":"公661","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"d1c169c0a483451aa23f47a338ca25cb","Name":"公662","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"d54c62af4c324d04b6b37f9347126457","Name":"公663","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"4b9779ed36da448f9677e4c7de210334","Name":"公664","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"5a2f9dfc1f8f469687b64080d8ef08c4","Name":"公665","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"a6d973d16e984720b6e1a6178b365d0c","Name":"公666","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null}],"pageSize":20,"pageCount":20,"pageIndex":1,"totalPages":101},"Code":200,"Msg":"处理成功！"}
+ 耗时：15.0996 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-20 23:35:18.9554 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/page 
+ 方式：POST 
+ 参数：{"dictionary":{"searchString":"","pageIndex":2,"pageSize":20}}
+ 结果：{"Data":{"pageData":[{"Id":"246af997b8f04de4830ae26b48a9f187","Name":"公667","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"9328f64030e943e2a10c49b3a42df054","Name":"公668","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"1e1e72f79c334b2eb6ef3082807e1480","Name":"公669","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"acc9c636a018461ca0f44b5cce2a670b","Name":"公670","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"15d9e5aee6d04f79b7a66afaea674cad","Name":"公671","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"7cecaec1791e486fa017d0b0355daef7","Name":"公672","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"4d421f3a27c845ce9be2e3ac11723aaa","Name":"公673","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"22ad1e6bb63b4a7db87bc1dd27ba005f","Name":"公674","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"df97d26fd3d54f9eab960440762ffd79","Name":"公675","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"e806f6a5bed9401d9b436fb79a5ec379","Name":"公676","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"b9a55252bfd448c696141d66a44b4a85","Name":"公677","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"523974d1a5094bc38d4861086b50f327","Name":"公678","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"ec306c6706404539ba6106ae07f643fb","Name":"公679","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"b4c4714234b74cfdab0866477b27f6a7","Name":"公680","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"c78235abc64b4115a31025fc24400cbe","Name":"公681","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"b3466a9aaf4d4ce0b650207e35cb5d50","Name":"公682","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"4bd62db9d9824fce887aeae19b022dde","Name":"公683","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"0e425b76a1984149bb990638dea4e53c","Name":"公684","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"a5ea5c5c2c1842fca35e75f0003b7bbc","Name":"公657","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null},{"Id":"8722429f6c664df28f80dd0610c6196e","Name":"公685","CountOrNot":null,"ParentId":"0                               ","Remarks":null,"Sort":null}],"pageSize":20,"pageCount":20,"pageIndex":2,"totalPages":101},"Code":200,"Msg":"处理成功！"}
+ 耗时：14.8381 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)

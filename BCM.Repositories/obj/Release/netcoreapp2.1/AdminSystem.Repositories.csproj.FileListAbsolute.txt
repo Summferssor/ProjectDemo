@@ -1,0 +1,16 @@
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\bin\Release\netcoreapp2.1\AdminSystem.Repositories.deps.json
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\bin\Release\netcoreapp2.1\AdminSystem.Repositories.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\bin\Release\netcoreapp2.1\AdminSystem.Repositories.pdb
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\bin\Release\netcoreapp2.1\AdminSystem.Common.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\bin\Release\netcoreapp2.1\AdminSystem.IRepositories.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\bin\Release\netcoreapp2.1\AdminSystem.Models.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\bin\Release\netcoreapp2.1\AdminSystem.Common.pdb
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\bin\Release\netcoreapp2.1\AdminSystem.IRepositories.pdb
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\bin\Release\netcoreapp2.1\AdminSystem.Models.pdb
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\obj\Release\netcoreapp2.1\AdminSystem.Repositories.csprojAssemblyReference.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\obj\Release\netcoreapp2.1\AdminSystem.Repositories.csproj.CoreCompileInputs.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\obj\Release\netcoreapp2.1\AdminSystem.Repositories.AssemblyInfoInputs.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\obj\Release\netcoreapp2.1\AdminSystem.Repositories.AssemblyInfo.cs
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\obj\Release\netcoreapp2.1\AdminSystem.Repositories.csproj.CopyComplete
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\obj\Release\netcoreapp2.1\AdminSystem.Repositories.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Repositories\obj\Release\netcoreapp2.1\AdminSystem.Repositories.pdb

@@ -1,0 +1,107 @@
+2018-12-27 12:26:28.3266 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/verifycode/mix 
+ 方式：POST 
+ 参数：{"code":"mix"}
+ 结果：在返回结果前发生了异常
+ 耗时：19.1913 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:26:28.5502 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Object reference not set to an instance of an object. Object reference not set to an instance of an object. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2018-12-27 12:26:40.6961 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/verifycode/mix 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：104.5242 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:27:58.6022 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/login/xchv 
+ 方式：POST 
+ 参数：{"code":"xchv","dictionary":{"jobId":"2016124037","passWord":"2016124037"}}
+ 结果：{"Data":{"content":"验证码错误"},"Code":401,"Msg":"验证失败！"}
+ 耗时：5.1496 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:28:39.9032 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/verifycode/mix 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：8.19 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:29:09.5767 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/login/xchv 
+ 方式：POST 
+ 参数：{"code":"xchv","dictionary":{"jobId":"2016124037","passWord":"2016124037"}}
+ 结果：{"Data":{"content":"验证码错误"},"Code":401,"Msg":"验证失败！"}
+ 耗时：0.2583 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:29:59.9276 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/verifycode/mix 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：80.5764 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:30:10.5530 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/login/xchv 
+ 方式：POST 
+ 参数：{"code":"xchv","dictionary":{"jobId":"2016124037","passWord":"2016124037"}}
+ 结果：{"Data":{"content":"验证码错误"},"Code":401,"Msg":"验证失败！"}
+ 耗时：6.9625 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:30:19.4647 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/login/xchv 
+ 方式：POST 
+ 参数：{"code":"xchv","dictionary":{"jobId":"201612403","passWord":"2016124037"}}
+ 结果：{"Data":{"content":"验证码错误"},"Code":401,"Msg":"验证失败！"}
+ 耗时：0.2615 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:30:42.3584 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/login/SxTJe 
+ 方式：POST 
+ 参数：{"code":"SxTJe","dictionary":{"jobId":"2016124037","passWord":"2016124037"}}
+ 结果：{"Data":{"employee":{"JobId":"2016124037","Name":"测试1"}},"Code":200,"Msg":"处理成功！"}
+ 耗时：722.6946 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:38:09.5436 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/verifycode/mix 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：71.58 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:38:51.8399 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login/O1Xhs 
+ 方式：POST 
+ 参数：{"code":"O1Xhs","dictionary":{"userName":"admin","passWord":"123456"}}
+ 结果：{"Data":{"user":{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin"}},"Code":200,"Msg":"处理成功！"}
+ 耗时：465.7921 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:41:24.4726 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/verifycode/mix 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：74.6947 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:41:45.1216 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"admin","passWord":"123456","code":"M7gH"}}
+ 结果：{"Data":{"user":{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin"}},"Code":200,"Msg":"处理成功！"}
+ 耗时：457.2576 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:46:14.5717 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"admin","passWord":"123456","code":"TXcJ"}}
+ 结果：{"Data":{"content":"验证码错误"},"Code":401,"Msg":"验证失败！"}
+ 耗时：13.6821 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:47:15.1223 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"admin","passWord":"123456","code":"TXcJ"}}
+ 结果：在返回结果前发生了异常
+ 耗时：11.5895 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-27 12:47:15.2460 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next Object reference not set to an instance of an object. Object reference not set to an instance of an object. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)

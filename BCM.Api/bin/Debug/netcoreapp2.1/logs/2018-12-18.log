@@ -1,0 +1,336 @@
+2018-12-18 14:55:31.6703 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"superadmin","passWord":"123456"}}
+ 结果：{"Data":{"user":{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"superadmin"}},"Code":200,"Msg":"处理成功！"}
+ 耗时：1017.9993 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 14:55:41.5325 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"superadmin","passWord":"123456"}}
+ 结果：{"Data":{"user":{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"superadmin"}},"Code":200,"Msg":"处理成功！"}
+ 耗时：33.8686 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 15:34:19.8026 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"testadd","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"testadd"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：337.3895 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 15:34:38.3947 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"eab8025d688745d7a71a92452e6df7fe","DictionaryName":"testadd","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"testadd"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：216.4075 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 15:35:21.7163 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/eab8025d688745d7a71a92452e6df7fe 
+ 方式：PUT 
+ 参数：{"id":"eab8025d688745d7a71a92452e6df7fe","dictionaryModification":{"DictionaryId":null,"DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"testput"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：125.2684 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 15:35:28.7498 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"eab8025d688745d7a71a92452e6df7fe","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"testput"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：5.931 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 15:44:07.6619 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/eab8025d688745d7a71a92452e6df7fe 
+ 方式：DELETE 
+ 参数：{"id":"eab8025d688745d7a71a92452e6df7fe"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：57.0891 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:08:34.7190 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"testput"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：438.8014 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:08:39.3034 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"14cb42aa5e9c4ea39e640636540e3f2f","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"testput"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：274.796 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:10:01.3477 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/14cb42aa5e9c4ea39e640636540e3f2f 
+ 方式：PUT 
+ 参数：{"id":"14cb42aa5e9c4ea39e640636540e3f2f","dictionaryModification":{"DictionaryId":null,"DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"testput"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：141.1329 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:39:41.6539 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":null,"DictionaryRemarks":"testput"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：538.6196 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:39:42.8092 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":null,"DictionaryRemarks":"testput"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：25.8796 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:39:44.1527 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":null,"DictionaryRemarks":"testput"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：37.5904 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:39:45.0652 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":null,"DictionaryRemarks":"testput"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：15.4172 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:39:49.7270 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"14cb42aa5e9c4ea39e640636540e3f2f","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"testput"},{"DictionaryId":"627c8877f50541a180beface1bbc6f3c","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":2,"DictionaryRemarks":"testput"},{"DictionaryId":"87a6da877a244004b663a62ebf79377c","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":3,"DictionaryRemarks":"testput"},{"DictionaryId":"daf63b3341954a71b349c3a81a5038b4","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":5,"DictionaryRemarks":"testput"},{"DictionaryId":"e07a49afc57f45478c58d17245c1bb6e","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":4,"DictionaryRemarks":"testput"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：105.5943 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:40:14.5437 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"14cb42aa5e9c4ea39e640636540e3f2f","DictionaryOrderNum":null,"DictionaryRemarks":"testput"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：19.5899 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:40:18.1988 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"14cb42aa5e9c4ea39e640636540e3f2f","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"testput"},{"DictionaryId":"627c8877f50541a180beface1bbc6f3c","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":2,"DictionaryRemarks":"testput"},{"DictionaryId":"87a6da877a244004b663a62ebf79377c","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":3,"DictionaryRemarks":"testput"},{"DictionaryId":"daf63b3341954a71b349c3a81a5038b4","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":5,"DictionaryRemarks":"testput"},{"DictionaryId":"e07a49afc57f45478c58d17245c1bb6e","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":4,"DictionaryRemarks":"testput"},{"DictionaryId":"fa4e88745783468b92c3b7ea320075b8","DictionaryName":"testput","DictionaryCode":"A1000","ParentDictionaryCode":"14cb42aa5e9c4ea39e640636540e3f2f","DictionaryOrderNum":1,"DictionaryRemarks":"testput"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：6.5035 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:40:42.7929 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/14cb42aa5e9c4ea39e640636540e3f2f 
+ 方式：DELETE 
+ 参数：{"id":"14cb42aa5e9c4ea39e640636540e3f2f"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：47.9087 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:41:03.3710 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/627c8877f50541a180beface1bbc6f3c 
+ 方式：DELETE 
+ 参数：{"id":"627c8877f50541a180beface1bbc6f3c"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：1139.0774 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:41:08.4181 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/87a6da877a244004b663a62ebf79377c 
+ 方式：DELETE 
+ 参数：{"id":"87a6da877a244004b663a62ebf79377c"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：16.7261 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:41:13.3726 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/daf63b3341954a71b349c3a81a5038b4 
+ 方式：DELETE 
+ 参数：{"id":"daf63b3341954a71b349c3a81a5038b4"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：15.7171 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:41:17.3887 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/e07a49afc57f45478c58d17245c1bb6e 
+ 方式：DELETE 
+ 参数：{"id":"e07a49afc57f45478c58d17245c1bb6e"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：14.9807 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:41:21.3082 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/fa4e88745783468b92c3b7ea320075b8 
+ 方式：DELETE 
+ 参数：{"id":"fa4e88745783468b92c3b7ea320075b8"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：15.2434 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 16:53:29.3741 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/module 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"ModuleList":[{"ModuleId":"3c596a42514f4e1ba944d4c09fb52a7a","ModuleName":"系统管理","ModuleUrl":"/system","ParentModuleId":"0                               ","ModuleStatus":"1","ModuleOrderNum":2,"ModuleDescription":"系统管理","ModuleRemarks":"系统管理","ModuleIcon":null},{"ModuleId":"869ba3ad38cf4ba89e56502b50054229","ModuleName":"用户管理","ModuleUrl":"userManage","ParentModuleId":"3c596a42514f4e1ba944d4c09fb52a7a","ModuleStatus":"1","ModuleOrderNum":2,"ModuleDescription":"用户管理","ModuleRemarks":"用户管理","ModuleIcon":null},{"ModuleId":"2cb804f54f06423eab181971bab8152d","ModuleName":"权限管理","ModuleUrl":"authManage","ParentModuleId":"3c596a42514f4e1ba944d4c09fb52a7a","ModuleStatus":"1","ModuleOrderNum":3,"ModuleDescription":"权限管理","ModuleRemarks":"权限管理","ModuleIcon":null},{"ModuleId":"5242cb64d7c54606bc13cc2ae5c9b09e","ModuleName":"角色管理","ModuleUrl":"roleManage","ParentModuleId":"3c596a42514f4e1ba944d4c09fb52a7a","ModuleStatus":"1","ModuleOrderNum":5,"ModuleDescription":"角色管理","ModuleRemarks":"角色管理","ModuleIcon":null},{"ModuleId":"b5f0e14cb76743e5ba5066b7d744977f","ModuleName":"模块管理","ModuleUrl":"moduleManage","ParentModuleId":"3c596a42514f4e1ba944d4c09fb52a7a","ModuleStatus":"1","ModuleOrderNum":6,"ModuleDescription":"模块管理","ModuleRemarks":"模块管理","ModuleIcon":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：510.633 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 17:49:30.5728 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/module 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"ModuleList":[{"ModuleId":"3c596a42514f4e1ba944d4c09fb52a7a","ModuleName":"系统管理","ModuleUrl":"/system","ParentModuleId":"0                               ","ModuleStatus":"1","ModuleOrderNum":2,"ModuleDescription":"系统管理","ModuleRemarks":"系统管理","ModuleIcon":null},{"ModuleId":"869ba3ad38cf4ba89e56502b50054229","ModuleName":"用户管理","ModuleUrl":"userManage","ParentModuleId":"3c596a42514f4e1ba944d4c09fb52a7a","ModuleStatus":"1","ModuleOrderNum":2,"ModuleDescription":"用户管理","ModuleRemarks":"用户管理","ModuleIcon":null},{"ModuleId":"2cb804f54f06423eab181971bab8152d","ModuleName":"权限管理","ModuleUrl":"authManage","ParentModuleId":"3c596a42514f4e1ba944d4c09fb52a7a","ModuleStatus":"1","ModuleOrderNum":3,"ModuleDescription":"权限管理","ModuleRemarks":"权限管理","ModuleIcon":null},{"ModuleId":"5242cb64d7c54606bc13cc2ae5c9b09e","ModuleName":"角色管理","ModuleUrl":"roleManage","ParentModuleId":"3c596a42514f4e1ba944d4c09fb52a7a","ModuleStatus":"1","ModuleOrderNum":5,"ModuleDescription":"角色管理","ModuleRemarks":"角色管理","ModuleIcon":null},{"ModuleId":"b5f0e14cb76743e5ba5066b7d744977f","ModuleName":"模块管理","ModuleUrl":"moduleManage","ParentModuleId":"3c596a42514f4e1ba944d4c09fb52a7a","ModuleStatus":"1","ModuleOrderNum":6,"ModuleDescription":"模块管理","ModuleRemarks":"模块管理","ModuleIcon":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：602.6428 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:40:15.7594 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"消费类型","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":null,"DictionaryRemarks":"消费类型"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：790.2354 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:40:35.5433 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"发放次数级别","DictionaryCode":"A2000","ParentDictionaryCode":"0","DictionaryOrderNum":null,"DictionaryRemarks":"发放次数级别"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：21.0753 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:40:52.2633 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"次数转金额设置","DictionaryCode":"A3000","ParentDictionaryCode":"0","DictionaryOrderNum":null,"DictionaryRemarks":"次数转金额设置"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：19.7906 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:41:02.5441 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"次数发放类型","DictionaryCode":"A4000","ParentDictionaryCode":"0","DictionaryOrderNum":null,"DictionaryRemarks":"次数发放类型"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：11.8324 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:41:13.3102 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"钱包发放类型","DictionaryCode":"A5000","ParentDictionaryCode":"0","DictionaryOrderNum":null,"DictionaryRemarks":"钱包发放类型"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：11.7917 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:41:23.3097 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"f5fafd1c72d2497f882783d7485af926","DictionaryName":"消费类型","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"消费类型"},{"DictionaryId":"83cbf94c3a574cd29fe7e40f99655d14","DictionaryName":"发放次数级别","DictionaryCode":"A2000","ParentDictionaryCode":"0","DictionaryOrderNum":2,"DictionaryRemarks":"发放次数级别"},{"DictionaryId":"7c0b17cadc504042ba6cc3a4c3dd7790","DictionaryName":"次数转金额设置","DictionaryCode":"A3000","ParentDictionaryCode":"0","DictionaryOrderNum":3,"DictionaryRemarks":"次数转金额设置"},{"DictionaryId":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryName":"次数发放类型","DictionaryCode":"A4000","ParentDictionaryCode":"0","DictionaryOrderNum":4,"DictionaryRemarks":"次数发放类型"},{"DictionaryId":"99a069da3cef4df8a9535ee93bd09d48","DictionaryName":"钱包发放类型","DictionaryCode":"A5000","ParentDictionaryCode":"0","DictionaryOrderNum":5,"DictionaryRemarks":"钱包发放类型"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：80.3302 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:42:34.1400 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"次数","DictionaryCode":"A100001","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":null,"DictionaryRemarks":"次数"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：18.1795 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:42:43.7832 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"钱包","DictionaryCode":"A100001","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":null,"DictionaryRemarks":"钱包"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：14.9072 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:42:51.9496 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"67548d89ceb640fea6130cfff840a27e","DictionaryName":"次数","DictionaryCode":"A100001","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":1,"DictionaryRemarks":"次数"},{"DictionaryId":"f5fafd1c72d2497f882783d7485af926","DictionaryName":"消费类型","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"消费类型"},{"DictionaryId":"2420421bfc0f429d99f22847c11fb46d","DictionaryName":"钱包","DictionaryCode":"A100001","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":2,"DictionaryRemarks":"钱包"},{"DictionaryId":"83cbf94c3a574cd29fe7e40f99655d14","DictionaryName":"发放次数级别","DictionaryCode":"A2000","ParentDictionaryCode":"0","DictionaryOrderNum":2,"DictionaryRemarks":"发放次数级别"},{"DictionaryId":"7c0b17cadc504042ba6cc3a4c3dd7790","DictionaryName":"次数转金额设置","DictionaryCode":"A3000","ParentDictionaryCode":"0","DictionaryOrderNum":3,"DictionaryRemarks":"次数转金额设置"},{"DictionaryId":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryName":"次数发放类型","DictionaryCode":"A4000","ParentDictionaryCode":"0","DictionaryOrderNum":4,"DictionaryRemarks":"次数发放类型"},{"DictionaryId":"99a069da3cef4df8a9535ee93bd09d48","DictionaryName":"钱包发放类型","DictionaryCode":"A5000","ParentDictionaryCode":"0","DictionaryOrderNum":5,"DictionaryRemarks":"钱包发放类型"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：7.5685 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:43:24.0621 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/2420421bfc0f429d99f22847c11fb46d 
+ 方式：PUT 
+ 参数：{"id":"2420421bfc0f429d99f22847c11fb46d","dictionaryModification":{"DictionaryId":null,"DictionaryName":"钱包","DictionaryCode":"A100002","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":null,"DictionaryRemarks":"钱包"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：58.2739 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:43:30.2638 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"2420421bfc0f429d99f22847c11fb46d","DictionaryName":"钱包","DictionaryCode":"A100002","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":null,"DictionaryRemarks":"钱包"},{"DictionaryId":"67548d89ceb640fea6130cfff840a27e","DictionaryName":"次数","DictionaryCode":"A100001","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":1,"DictionaryRemarks":"次数"},{"DictionaryId":"f5fafd1c72d2497f882783d7485af926","DictionaryName":"消费类型","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"消费类型"},{"DictionaryId":"83cbf94c3a574cd29fe7e40f99655d14","DictionaryName":"发放次数级别","DictionaryCode":"A2000","ParentDictionaryCode":"0","DictionaryOrderNum":2,"DictionaryRemarks":"发放次数级别"},{"DictionaryId":"7c0b17cadc504042ba6cc3a4c3dd7790","DictionaryName":"次数转金额设置","DictionaryCode":"A3000","ParentDictionaryCode":"0","DictionaryOrderNum":3,"DictionaryRemarks":"次数转金额设置"},{"DictionaryId":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryName":"次数发放类型","DictionaryCode":"A4000","ParentDictionaryCode":"0","DictionaryOrderNum":4,"DictionaryRemarks":"次数发放类型"},{"DictionaryId":"99a069da3cef4df8a9535ee93bd09d48","DictionaryName":"钱包发放类型","DictionaryCode":"A5000","ParentDictionaryCode":"0","DictionaryOrderNum":5,"DictionaryRemarks":"钱包发放类型"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：6.7824 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:44:05.3268 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary/2420421bfc0f429d99f22847c11fb46d 
+ 方式：DELETE 
+ 参数：{"id":"2420421bfc0f429d99f22847c11fb46d"}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：16.0189 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:44:13.9188 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"钱包","DictionaryCode":"A100002","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":null,"DictionaryRemarks":"钱包"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：14.744 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:44:16.9681 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"67548d89ceb640fea6130cfff840a27e","DictionaryName":"次数","DictionaryCode":"A100001","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":1,"DictionaryRemarks":"次数"},{"DictionaryId":"f5fafd1c72d2497f882783d7485af926","DictionaryName":"消费类型","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"消费类型"},{"DictionaryId":"9a2619dc089a4b31a1f12c95946bb610","DictionaryName":"钱包","DictionaryCode":"A100002","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":2,"DictionaryRemarks":"钱包"},{"DictionaryId":"83cbf94c3a574cd29fe7e40f99655d14","DictionaryName":"发放次数级别","DictionaryCode":"A2000","ParentDictionaryCode":"0","DictionaryOrderNum":2,"DictionaryRemarks":"发放次数级别"},{"DictionaryId":"7c0b17cadc504042ba6cc3a4c3dd7790","DictionaryName":"次数转金额设置","DictionaryCode":"A3000","ParentDictionaryCode":"0","DictionaryOrderNum":3,"DictionaryRemarks":"次数转金额设置"},{"DictionaryId":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryName":"次数发放类型","DictionaryCode":"A4000","ParentDictionaryCode":"0","DictionaryOrderNum":4,"DictionaryRemarks":"次数发放类型"},{"DictionaryId":"99a069da3cef4df8a9535ee93bd09d48","DictionaryName":"钱包发放类型","DictionaryCode":"A5000","ParentDictionaryCode":"0","DictionaryOrderNum":5,"DictionaryRemarks":"钱包发放类型"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：4.5104 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:46:58.6530 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"按月","DictionaryCode":"A400001","ParentDictionaryCode":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryOrderNum":null,"DictionaryRemarks":"按月"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：49.4806 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:47:09.1516 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"人工","DictionaryCode":"A400002","ParentDictionaryCode":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryOrderNum":null,"DictionaryRemarks":"人工"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：468.2603 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:47:20.2321 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"充值","DictionaryCode":"A400003","ParentDictionaryCode":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryOrderNum":null,"DictionaryRemarks":"充值"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：26.3359 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:47:24.0288 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"67548d89ceb640fea6130cfff840a27e","DictionaryName":"次数","DictionaryCode":"A100001","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":1,"DictionaryRemarks":"次数"},{"DictionaryId":"9c8a7363f883408e8bfdf87e0a422570","DictionaryName":"按月","DictionaryCode":"A400001","ParentDictionaryCode":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryOrderNum":1,"DictionaryRemarks":"按月"},{"DictionaryId":"f5fafd1c72d2497f882783d7485af926","DictionaryName":"消费类型","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"消费类型"},{"DictionaryId":"20259f077aea4c528136c2b09a9f1c6c","DictionaryName":"人工","DictionaryCode":"A400002","ParentDictionaryCode":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryOrderNum":2,"DictionaryRemarks":"人工"},{"DictionaryId":"9a2619dc089a4b31a1f12c95946bb610","DictionaryName":"钱包","DictionaryCode":"A100002","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":2,"DictionaryRemarks":"钱包"},{"DictionaryId":"83cbf94c3a574cd29fe7e40f99655d14","DictionaryName":"发放次数级别","DictionaryCode":"A2000","ParentDictionaryCode":"0","DictionaryOrderNum":2,"DictionaryRemarks":"发放次数级别"},{"DictionaryId":"98b7626e4c374a6ea298278cc78a4f7c","DictionaryName":"充值","DictionaryCode":"A400003","ParentDictionaryCode":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryOrderNum":3,"DictionaryRemarks":"充值"},{"DictionaryId":"7c0b17cadc504042ba6cc3a4c3dd7790","DictionaryName":"次数转金额设置","DictionaryCode":"A3000","ParentDictionaryCode":"0","DictionaryOrderNum":3,"DictionaryRemarks":"次数转金额设置"},{"DictionaryId":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryName":"次数发放类型","DictionaryCode":"A4000","ParentDictionaryCode":"0","DictionaryOrderNum":4,"DictionaryRemarks":"次数发放类型"},{"DictionaryId":"99a069da3cef4df8a9535ee93bd09d48","DictionaryName":"钱包发放类型","DictionaryCode":"A5000","ParentDictionaryCode":"0","DictionaryOrderNum":5,"DictionaryRemarks":"钱包发放类型"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：7.6112 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:48:05.7841 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"DictionaryList":[{"DictionaryId":"67548d89ceb640fea6130cfff840a27e","DictionaryName":"次数","DictionaryCode":"A100001","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":1,"DictionaryRemarks":"次数"},{"DictionaryId":"9c8a7363f883408e8bfdf87e0a422570","DictionaryName":"按月","DictionaryCode":"A400001","ParentDictionaryCode":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryOrderNum":1,"DictionaryRemarks":"按月"},{"DictionaryId":"f5fafd1c72d2497f882783d7485af926","DictionaryName":"消费类型","DictionaryCode":"A1000","ParentDictionaryCode":"0","DictionaryOrderNum":1,"DictionaryRemarks":"消费类型"},{"DictionaryId":"20259f077aea4c528136c2b09a9f1c6c","DictionaryName":"人工","DictionaryCode":"A400002","ParentDictionaryCode":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryOrderNum":2,"DictionaryRemarks":"人工"},{"DictionaryId":"9a2619dc089a4b31a1f12c95946bb610","DictionaryName":"钱包","DictionaryCode":"A100002","ParentDictionaryCode":"f5fafd1c72d2497f882783d7485af926","DictionaryOrderNum":2,"DictionaryRemarks":"钱包"},{"DictionaryId":"83cbf94c3a574cd29fe7e40f99655d14","DictionaryName":"发放次数级别","DictionaryCode":"A2000","ParentDictionaryCode":"0","DictionaryOrderNum":2,"DictionaryRemarks":"发放次数级别"},{"DictionaryId":"98b7626e4c374a6ea298278cc78a4f7c","DictionaryName":"充值","DictionaryCode":"A400003","ParentDictionaryCode":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryOrderNum":3,"DictionaryRemarks":"充值"},{"DictionaryId":"7c0b17cadc504042ba6cc3a4c3dd7790","DictionaryName":"次数转金额设置","DictionaryCode":"A3000","ParentDictionaryCode":"0","DictionaryOrderNum":3,"DictionaryRemarks":"次数转金额设置"},{"DictionaryId":"b2ceecfafcf441c68c428717ecb0dd5e","DictionaryName":"次数发放类型","DictionaryCode":"A4000","ParentDictionaryCode":"0","DictionaryOrderNum":4,"DictionaryRemarks":"次数发放类型"},{"DictionaryId":"99a069da3cef4df8a9535ee93bd09d48","DictionaryName":"钱包发放类型","DictionaryCode":"A5000","ParentDictionaryCode":"0","DictionaryOrderNum":5,"DictionaryRemarks":"钱包发放类型"}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：7.2209 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:48:09.3556 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"月底转结","DictionaryCode":"A500001","ParentDictionaryCode":"99a069da3cef4df8a9535ee93bd09d48","DictionaryOrderNum":null,"DictionaryRemarks":"月底转结"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：13.6987 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:48:22.4180 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"补偿","DictionaryCode":"A500002","ParentDictionaryCode":"99a069da3cef4df8a9535ee93bd09d48","DictionaryOrderNum":null,"DictionaryRemarks":"补偿"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：12.6186 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:48:31.6855 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"充值","DictionaryCode":"A500003","ParentDictionaryCode":"99a069da3cef4df8a9535ee93bd09d48","DictionaryOrderNum":null,"DictionaryRemarks":"充值"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：15.4093 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-18 20:53:28.0387 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/dictionary 
+ 方式：POST 
+ 参数：{"dictionaryCreation":{"DictionaryId":null,"DictionaryName":"充值","DictionaryCode":"A500003","ParentDictionaryCode":"99a069da3cef4df8a9535ee93bd09d48","DictionaryOrderNum":null,"DictionaryRemarks":"充值"}}
+ 结果：{"Data":{"msg":"字典码或字典名重复"},"Code":400,"Msg":"处理失败！"}
+ 耗时：419.6105 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)

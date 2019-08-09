@@ -1,0 +1,13 @@
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.2\BCM.Filters.deps.json
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.2\BCM.Filters.dll
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.dll
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Core.dll
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.xml
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Core.xml
+F:\Bcm\BCM_core\BCM.Filters\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Logging.Abstractions.xml
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.2\BCM.Filters.csprojAssemblyReference.cache
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.2\BCM.Filters.csproj.CoreCompileInputs.cache
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.2\BCM.Filters.AssemblyInfoInputs.cache
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.2\BCM.Filters.AssemblyInfo.cs
+F:\Bcm\BCM_core\BCM.Filters\obj\Debug\netcoreapp2.2\BCM.Filters.csproj.CopyComplete

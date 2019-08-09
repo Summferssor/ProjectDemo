@@ -1,0 +1,11 @@
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\bin\Release\netcoreapp2.1\AdminSystem.Models.deps.json
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\bin\Release\netcoreapp2.1\AdminSystem.Models.runtimeconfig.json
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\bin\Release\netcoreapp2.1\AdminSystem.Models.runtimeconfig.dev.json
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\bin\Release\netcoreapp2.1\AdminSystem.Models.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\bin\Release\netcoreapp2.1\AdminSystem.Models.pdb
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\obj\Release\netcoreapp2.1\AdminSystem.Models.csprojAssemblyReference.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\obj\Release\netcoreapp2.1\AdminSystem.Models.csproj.CoreCompileInputs.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\obj\Release\netcoreapp2.1\AdminSystem.Models.AssemblyInfoInputs.cache
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\obj\Release\netcoreapp2.1\AdminSystem.Models.AssemblyInfo.cs
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\obj\Release\netcoreapp2.1\AdminSystem.Models.dll
+F:\StudyFile\AdminSystem\AdminSystem\AdminSystem.Models\obj\Release\netcoreapp2.1\AdminSystem.Models.pdb

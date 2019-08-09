@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "f:\\Bcm\\BCM_core\\BCM.Models\\BCM.Models.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

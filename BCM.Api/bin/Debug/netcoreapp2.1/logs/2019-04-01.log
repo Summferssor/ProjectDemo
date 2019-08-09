@@ -1,0 +1,205 @@
+2019-04-01 15:13:16.5916 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/verifycode/num 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：66.5507 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:13:30.3488 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"admin","passWord":"e10adc3949ba59abbe56e057f20f883e","code":"9795"}}
+ 结果：{"Data":{"user":{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MjUyNzgwYzhmNTQ2OGM5NjBkMTdkNmVhZmU4MTZkIiwibmFtZSI6ImFkbWluIiwiZXhwIjoxNTU0MTg5MjEwLCJpc3MiOiJsb29wIiwiYXVkIjoibG9vcCJ9.HdOFLUWO1ASftSXxjkJNyjXDnzBPlyMp0wIDVr8f7rU"},"Code":200,"Msg":"处理成功！"}
+ 耗时：529.3765 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:15:52.9597 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：90.3219 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:15:52.9597 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:18:16.9585 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：502.7107 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:18:17.0592 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:20:27.3950 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：852.7872 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:20:27.5275 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:21:08.3908 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：132.1787 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:21:08.4029 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:22:08.4435 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：114.5016 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:22:08.4435 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:23:36.7344 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：123.0077 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:23:36.7470 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:25:16.1403 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：676.9772 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:25:16.2681 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:25:57.5334 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：34133.2876 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:25:57.5399 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:26:13.7475 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：479.8232 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:26:13.8615 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:33:47.4163 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：108500.2435 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:33:47.5315 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:34:34.1993 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":null,"Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：42586.9981 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:34:34.2146 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:35:40.5906 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":"","Password":"","Numbers":null,"QrCodeUrl":"","QrCodeNumber":"","Remarks":null,"AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":""}}
+ 结果：在返回结果前发生了异常
+ 耗时：64520.251 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:35:40.5974 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:36:28.1625 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department/158acfcfff8540c2a590a878870bc654 
+ 方式：PUT 
+ 参数：{"id":"158acfcfff8540c2a590a878870bc654","companyModification":{"Id":null,"Name":"","CountOrNot":"","ParentId":"","Remarks":"111","Sort":null}}
+ 结果：{"Data":{"content":"上级部门不存在"},"Code":400,"Msg":"处理失败！"}
+ 耗时：93.5172 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:37:21.9741 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department/158acfcfff8540c2a590a878870bc654 
+ 方式：PUT 
+ 参数：{"id":"158acfcfff8540c2a590a878870bc654","companyModification":{"Id":null,"Name":"","CountOrNot":"","ParentId":"","Remarks":"111","Sort":null}}
+ 结果：{"Data":{"content":"上级部门不存在"},"Code":400,"Msg":"处理失败！"}
+ 耗时：441.8298 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:37:58.4746 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department/158acfcfff8540c2a590a878870bc654 
+ 方式：PUT 
+ 参数：{"id":"158acfcfff8540c2a590a878870bc654","companyModification":{"Id":null,"Name":"","CountOrNot":"","ParentId":"","Remarks":"111","Sort":null}}
+ 结果：{"Data":{"content":"上级部门不存在"},"Code":400,"Msg":"处理失败！"}
+ 耗时：18.8313 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:38:06.4008 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":"","Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":"111","AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：70.9039 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:38:06.4008 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:38:16.3642 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":"","Password":null,"Numbers":null,"QrCodeUrl":null,"QrCodeNumber":null,"Remarks":"111","AddAt":null,"Sort":null,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":null}}
+ 结果：在返回结果前发生了异常
+ 耗时：5.8283 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:38:16.3642 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:38:55.1786 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/company/department/158acfcfff8540c2a590a878870bc654 
+ 方式：PUT 
+ 参数：{"id":"158acfcfff8540c2a590a878870bc654","companyModification":{"Id":null,"Name":"","CountOrNot":"","ParentId":"","Remarks":"111","Sort":null}}
+ 结果：{"Data":{"content":"上级部门不存在"},"Code":400,"Msg":"处理失败！"}
+ 耗时：7228.8528 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:41:17.3346 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":"","Password":"","Numbers":null,"QrCodeUrl":"123","QrCodeNumber":"","Remarks":null,"AddAt":null,"Sort":12312,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":""}}
+ 结果：在返回结果前发生了异常
+ 耗时：26481.0649 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:41:17.3346 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:42:15.5928 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":"","Password":"","Numbers":null,"QrCodeUrl":"123","QrCodeNumber":"","Remarks":"213","AddAt":null,"Sort":12312,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":""}}
+ 结果：在返回结果前发生了异常
+ 耗时：48918.0892 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:42:17.6283 [ERROR] Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. The property 'JobId' on entity type 'Employee' is part of a key and so cannot be modified or marked as modified. To change the principal of an existing entity with an identifying foreign key first delete the dependent and invoke 'SaveChanges' then associate the dependent with the new principal. @BCM.Filters.HttpGlobalExceptionFilter.OnException(F:\Bcm\BCM_core\BCM.Filters\HttpGlobalExceptionFilter.cs:23)
+2019-04-01 15:43:52.2006 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/employee/C001 
+ 方式：PUT 
+ 参数：{"id":"C001","employeeModification":{"JobId":null,"Name":"","Password":"","Numbers":null,"QrCodeUrl":"123","QrCodeNumber":"","Remarks":"213","AddAt":null,"Sort":12312,"AvailableCount":null,"UpdateMoneyAt":null,"AvailableMoney":null,"UpdateCountAt":null,"CompanyId":""}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：552.6203 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:52:39.2755 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/Template 
+ 方式：POST 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：380.2106 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:54:28.4255 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/importEmployee 
+ 方式：POST 
+ 参数：{"excelfile":{"ContentDisposition":"form-data; name=\"excelfile\"; filename=\"Template.xlsx\"","ContentType":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","Headers":{"Content-Disposition":["form-data; name=\"excelfile\"; filename=\"Template.xlsx\""],"Content-Type":["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"]},"Length":9540,"Name":"excelfile","FileName":"Template.xlsx"}}
+ 结果：{"Data":{"fail_import":{"test111":"部门错误"},"totle":1,"failCount":1},"Code":200,"Msg":"处理成功！"}
+ 耗时：635.2607 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 15:54:48.7312 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/importEmployee 
+ 方式：POST 
+ 参数：{"excelfile":{"ContentDisposition":"form-data; name=\"excelfile\"; filename=\"Template.xlsx\"","ContentType":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","Headers":{"Content-Disposition":["form-data; name=\"excelfile\"; filename=\"Template.xlsx\""],"Content-Type":["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"]},"Length":9535,"Name":"excelfile","FileName":"Template.xlsx"}}
+ 结果：{"Data":{"fail_import":{},"totle":1,"failCount":0},"Code":200,"Msg":"处理成功！"}
+ 耗时：206.6038 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-04-01 16:02:47.2793 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/mod/a77cf07267004a0eb159c680f3b636e7 
+ 方式：PUT 
+ 参数：{"id":"a77cf07267004a0eb159c680f3b636e7","dictionary":{"password":"123456"}}
+ 结果：{"Data":{},"Code":200,"Msg":"处理成功！"}
+ 耗时：501.9841 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)

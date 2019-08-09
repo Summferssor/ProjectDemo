@@ -1,0 +1,49 @@
+2018-12-17 13:28:37.9150 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"superadmin","passWord":"123456"}}
+ 结果：{"Data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJKdXJpc2RpY3Rpb25zIjoiUHV0Um9sZV9EZWxldGVNb2R1bGVfRGVsZXRlUm9sZV9QdXRNb2R1bGVfQWRkUm9sZV9EZWxldGVVc2VyX0FkZEp1cmlzZGljdGlvbl9BZGRVc2VyX0RlbGV0ZUp1cmlzZGljdGlvbl9QdXRKdXJpc2RpY3Rpb25fQWRkTW9kdWxlX1B1dFVzZXJfIiwiZXhwIjoxNTQ1MDI2MzE3LCJpc3MiOiJsb29wIiwiYXVkIjoibG9vcCJ9.OsfYclBsNwgUyDXGkjvmt-T0MhmoDH48DJjN48yfdzw"},"Code":200,"Msg":"处理成功！"}
+ 耗时：858.7536 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-17 13:28:38.0454 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"superadmin","passWord":"123456"}}
+ 结果：{"Data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJKdXJpc2RpY3Rpb25zIjoiUHV0Um9sZV9EZWxldGVNb2R1bGVfRGVsZXRlUm9sZV9QdXRNb2R1bGVfQWRkUm9sZV9EZWxldGVVc2VyX0FkZEp1cmlzZGljdGlvbl9BZGRVc2VyX0RlbGV0ZUp1cmlzZGljdGlvbl9QdXRKdXJpc2RpY3Rpb25fQWRkTW9kdWxlX1B1dFVzZXJfIiwiZXhwIjoxNTQ1MDI2MzE3LCJpc3MiOiJsb29wIiwiYXVkIjoibG9vcCJ9.OsfYclBsNwgUyDXGkjvmt-T0MhmoDH48DJjN48yfdzw"},"Code":200,"Msg":"处理成功！"}
+ 耗时：858.7536 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-17 13:33:52.9729 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"superadmin","passWord":"123456"}}
+ 结果：{"Data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJKdXJpc2RpY3Rpb25zIjoiUHV0Um9sZV9EZWxldGVNb2R1bGVfRGVsZXRlUm9sZV9QdXRNb2R1bGVfQWRkUm9sZV9EZWxldGVVc2VyX0FkZEp1cmlzZGljdGlvbl9BZGRVc2VyX0RlbGV0ZUp1cmlzZGljdGlvbl9QdXRKdXJpc2RpY3Rpb25fQWRkTW9kdWxlX1B1dFVzZXJfIiwiZXhwIjoxNTQ1MDI2NjMyLCJpc3MiOiJsb29wIiwiYXVkIjoibG9vcCJ9.XaX-GYv2pu4qSjyVOg1iFiDuSBdiCl7oUHk2ZZjBzh0"},"Code":200,"Msg":"处理成功！"}
+ 耗时：546.5018 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:47)
+2018-12-17 13:50:18.1938 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"superadmin","passWord":"123456"}}
+ 结果：{"Data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJKdXJpc2RpY3Rpb25zIjoiUHV0Um9sZV9EZWxldGVNb2R1bGVfRGVsZXRlUm9sZV9QdXRNb2R1bGVfQWRkUm9sZV9EZWxldGVVc2VyX0FkZEp1cmlzZGljdGlvbl9BZGRVc2VyX0RlbGV0ZUp1cmlzZGljdGlvbl9QdXRKdXJpc2RpY3Rpb25fQWRkTW9kdWxlX1B1dFVzZXJfIiwiZXhwIjoxNTQ1MDI3NjE4LCJpc3MiOiJsb29wIiwiYXVkIjoibG9vcCJ9.m3UIC2AOd9IKtV4bsK3NJgNfQ4cFWxsNiSXpCr39FkA"},"Code":200,"Msg":"处理成功！"}
+ 耗时：531.6649 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-17 13:56:30.0748 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"superadmin","passWord":"123456"}}
+ 结果：{"Data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJKdXJpc2RpY3Rpb25zIjoiUHV0Um9sZV9EZWxldGVNb2R1bGVfRGVsZXRlUm9sZV9QdXRNb2R1bGVfQWRkUm9sZV9EZWxldGVVc2VyX0FkZEp1cmlzZGljdGlvbl9BZGRVc2VyX0RlbGV0ZUp1cmlzZGljdGlvbl9QdXRKdXJpc2RpY3Rpb25fQWRkTW9kdWxlX1B1dFVzZXJfIiwiZXhwIjoxNTQ1MDI3OTg5LCJpc3MiOiJsb29wIiwiYXVkIjoibG9vcCJ9.S0vqHdRk0YNaz0hOSkns9u2T1N7xqAgdx2xJfqu9iLs"},"Code":200,"Msg":"处理成功！"}
+ 耗时：576.7217 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-17 13:56:42.0483 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user 
+ 方式：GET 
+ 参数：{}
+ 结果：{"Data":{"UserList":[{"UserId":"353b9f0aa4a6493e92a967f1683d4466","UserName":"2016124038","UserPassWord":"2016124038                      ","UserRealName":"test111","UserSex":"男","UserCellphone":null,"UserAddress":null,"UserEmail":null,"UserStatus":null,"UserDepartmentId":null,"UserRemarks":null},{"UserId":"58430fd6d9d64a47a11855f170282ba5","UserName":"2016124039","UserPassWord":"2016124039                      ","UserRealName":"123213","UserSex":"女","UserCellphone":null,"UserAddress":null,"UserEmail":null,"UserStatus":null,"UserDepartmentId":null,"UserRemarks":null},{"UserId":"68252780c8f5468c960d17d6eafe816d","UserName":"superadmin","UserPassWord":"123456                          ","UserRealName":"超级管理员","UserSex":null,"UserCellphone":null,"UserAddress":null,"UserEmail":null,"UserStatus":null,"UserDepartmentId":null,"UserRemarks":null},{"UserId":"a77cf07267004a0eb159c680f3b636e7","UserName":"2016124037","UserPassWord":"2016124037                      ","UserRealName":"xytest","UserSex":"男","UserCellphone":null,"UserAddress":null,"UserEmail":null,"UserStatus":null,"UserDepartmentId":null,"UserRemarks":null}]},"Code":200,"Msg":"处理成功！"}
+ 耗时：106.2332 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2018-12-17 14:00:57.2858 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/xlsx/import 
+ 方式：POST 
+ 参数：{"excelfile":{"ContentDisposition":"form-data; name=\"excelfile\"; filename=\"test.xlsx\"","ContentType":"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","Headers":{"Content-Disposition":["form-data; name=\"excelfile\"; filename=\"test.xlsx\""],"Content-Type":["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"]},"Length":9214,"Name":"excelfile","FileName":"test.xlsx"}}
+ 结果：{"Data":{"fail_import":["2016124037","2016124038","2016124039"],"totle":3,"failCount":3},"Code":200,"Msg":"处理成功！"}
+ 耗时：648.0551 毫秒（指控制器内对应方法执行完毕的时间）  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)

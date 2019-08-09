@@ -1,0 +1,70 @@
+2019-03-23 20:05:22.1845 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：192.168.199.151:8010/bcmsystem/xlsx/importEmployee 
+ 方式：POST 
+ 参数：{}
+ 结果：{"Data":{"exception":"Object reference not set to an instance of an object."},"Code":500,"Msg":"服务器内部错误！"}
+ 耗时：42.0827 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-03-23 21:34:59.2460 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/verifycode/num 
+ 方式：GET 
+ 参数：{}
+ 结果：日志未获取到结果，返回的数据无法序列化
+ 耗时：84.5487 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-03-23 21:35:10.3415 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/user/login 
+ 方式：POST 
+ 参数：{"dictionary":{"userName":"admin","passWord":"e10adc3949ba59abbe56e057f20f883e","code":"1163"}}
+ 结果：{"Data":{"user":{"userId":"68252780c8f5468c960d17d6eafe816d","userName":"admin"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MjUyNzgwYzhmNTQ2OGM5NjBkMTdkNmVhZmU4MTZkIiwibmFtZSI6ImFkbWluIiwiZXhwIjoxNTUzNDM0NTEwLCJpc3MiOiJsb29wIiwiYXVkIjoibG9vcCJ9.njYFOtgzDqNOUx2haiRsblYBo4i51vJI8Wd0QmNJoq8"},"Code":200,"Msg":"处理成功！"}
+ 耗时：512.0381 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-03-23 21:57:17.1779 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/payofftable/topup 
+ 方式：POST 
+ 参数：{"dictionary":{"companyId":"","employeeName":"x002","pageIndex":1,"timeStart":"","timeEnd":"","pageSize":20}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"华能","DepartmentName":"华能部门一","EmployeeName":"X002","LastMonthCarryNumber":0.0,"LastMonthCarryMoney":740.0,"TopUpNumber":50.0,"SubsidiesMoney":0.0,"DeductionsBreakfast":0,"DeductionsLunch":0,"DeductionsDinner":0,"DeductionsSnack":0,"TotalDeductions":0,"ThisMonthCarryNumber":47,"ThisMonthCarryMoney":235.0}],"pageSize":20,"pageCount":1,"pageIndex":1,"totalCount":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：157061.5735 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-03-23 22:00:18.8126 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/payofftable/topup 
+ 方式：POST 
+ 参数：{"dictionary":{"companyId":"","employeeName":"x002","pageIndex":1,"timeStart":"","timeEnd":"","pageSize":20}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"华能","DepartmentName":"华能部门一","EmployeeName":"X002","LastMonthCarryNumber":0.0,"LastMonthCarryMoney":740.0,"TopUpNumber":50.0,"SubsidiesMoney":0.0,"DeductionsBreakfast":0,"DeductionsLunch":0,"DeductionsDinner":0,"DeductionsSnack":0,"TotalDeductions":0,"ThisMonthCarryNumber":47,"ThisMonthCarryMoney":235.0}],"pageSize":20,"pageCount":1,"pageIndex":1,"totalCount":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：752.1792 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-03-23 22:01:18.8933 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/payofftable/topup 
+ 方式：POST 
+ 参数：{"dictionary":{"companyId":"","employeeName":"x002","pageIndex":1,"timeStart":"","timeEnd":"","pageSize":20}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"华能","DepartmentName":"华能部门一","EmployeeName":"X002","LastMonthCarryNumber":0.0,"LastMonthCarryMoney":740.0,"TopUpNumber":50.0,"SubsidiesMoney":0.0,"DeductionsBreakfast":0,"DeductionsLunch":0,"DeductionsDinner":0,"DeductionsSnack":5,"TotalDeductions":0,"ThisMonthCarryNumber":47,"ThisMonthCarryMoney":235.0}],"pageSize":20,"pageCount":1,"pageIndex":1,"totalCount":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：824.6498 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-03-23 22:01:51.9205 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/payofftable/topup 
+ 方式：POST 
+ 参数：{"dictionary":{"companyId":"","employeeName":"X002","pageIndex":1,"timeStart":"","timeEnd":"","pageSize":20}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"华能","DepartmentName":"华能部门一","EmployeeName":"X002","LastMonthCarryNumber":0.0,"LastMonthCarryMoney":740.0,"TopUpNumber":50.0,"SubsidiesMoney":0.0,"DeductionsBreakfast":0,"DeductionsLunch":0,"DeductionsDinner":0,"DeductionsSnack":0,"TotalDeductions":0,"ThisMonthCarryNumber":47,"ThisMonthCarryMoney":235.0}],"pageSize":20,"pageCount":1,"pageIndex":1,"totalCount":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：793.1744 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-03-23 22:05:58.8223 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/payofftable/topup 
+ 方式：POST 
+ 参数：{"dictionary":{"companyId":"","employeeName":"X002","pageIndex":1,"timeStart":"","timeEnd":"","pageSize":20}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"华能","DepartmentName":"华能部门一","EmployeeName":"X002","LastMonthCarryNumber":0.0,"LastMonthCarryMoney":740.0,"TopUpNumber":50.0,"SubsidiesMoney":0.0,"DeductionsBreakfast":0,"DeductionsLunch":0,"DeductionsDinner":0,"DeductionsSnack":0,"TotalDeductions":0,"ThisMonthCarryNumber":45,"ThisMonthCarryMoney":225.0}],"pageSize":20,"pageCount":1,"pageIndex":1,"totalCount":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：737.2795 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-03-23 22:06:33.9372 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/payofftable/topup 
+ 方式：POST 
+ 参数：{"dictionary":{"companyId":"","employeeName":"X002","pageIndex":1,"timeStart":"","timeEnd":"","pageSize":20}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"华能","DepartmentName":"华能部门一","EmployeeName":"X002","LastMonthCarryNumber":0.0,"LastMonthCarryMoney":740.0,"TopUpNumber":50.0,"SubsidiesMoney":0.0,"DeductionsBreakfast":0,"DeductionsLunch":0,"DeductionsDinner":0,"DeductionsSnack":0,"TotalDeductions":0,"ThisMonthCarryNumber":45,"ThisMonthCarryMoney":225.0}],"pageSize":20,"pageCount":1,"pageIndex":1,"totalCount":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：743.4796 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
+2019-03-23 22:13:46.8304 [INFO] Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute+<OnActionExecutionAsync>d__6.MoveNext 
+ 方法：123 
+ 地址：localhost:8010/bcmsystem/payofftable/topup 
+ 方式：POST 
+ 参数：{"dictionary":{"companyId":"","employeeName":"X002","pageIndex":1,"timeStart":"","timeEnd":"","pageSize":20}}
+ 结果：{"Data":{"pageData":[{"CompanyName":"华能","DepartmentName":"华能部门一","EmployeeName":"X002","LastMonthCarryNumber":148.0,"LastMonthCarryMoney":740.0,"TopUpNumber":50.0,"SubsidiesMoney":0.0,"DeductionsBreakfast":0,"DeductionsLunch":0,"DeductionsDinner":0,"DeductionsSnack":5,"TotalDeductions":5,"ThisMonthCarryNumber":45,"ThisMonthCarryMoney":225.0}],"pageSize":20,"pageCount":1,"pageIndex":1,"totalCount":1,"totalPages":1,"prePage":false,"nextPage":false},"Code":200,"Msg":"处理成功！"}
+ 耗时：832.0098 毫秒  @BCM.Filters.LogAttribute.OnActionExecuted(F:\Bcm\BCM_core\BCM.Filters\LogAttribute.cs:46)
